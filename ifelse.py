@@ -1,18 +1,19 @@
-# IF else: demo
-age = float(input("Enter your age: "))    
+# IF ElIF ELSE
 
+#Input from Keyboard
+age = int(input("Enter your age: "))     #Type casting String input to Int
+
+print("Age :",age)
+
+#If Block
 if age <= 20:
-	print("Twenties")
-elif age>20 and age<=30:
-        print("> 20 < 30")
+	print("Age is < or = 20")
+elif age>20 and age<=30:    
+        #condition and condition == TRUE (both), condition or condition == any one condition can be true
+
+        print("Age is > 20 and <= 30")
 else:
         if age > 30:
-                print("oldies")
+                print("Age is > 30")
         else:
-                print("Above Twenties")
-	
-
-
-#condition and condition == TRUE
-#condition or condition == 1st condition
-
+                print("My Condition above didn't Matches")
