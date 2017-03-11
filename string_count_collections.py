@@ -22,3 +22,7 @@ print("\nType counts: ",type(counts))
 print(counts)
 
 print("\n Occurrences of 'cat': ",counts['cat'])
+
+#counter general Use (collections.Counter())
+print("\n\nUsing Counter: ")
+print(Counter(['a',2, 'b', 'c', 1,'a', 'b', 'd','b','a',1,2,2]))
