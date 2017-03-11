@@ -13,3 +13,8 @@ count=0
 for word in sentence:
     count+=1 # count = count+1
     print(count," > ",word)
+
+
+#range(start, stop[, step]) 
+for i in range(1,21,1):
+    print("Range : ",i)
