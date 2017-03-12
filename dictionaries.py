@@ -6,7 +6,7 @@ dict_a = {key:value, key:value, key:value}
 
 l = [1,2,3,4,5,6,7,8,9]
 t = (1,2,3,4,56.7,34.6)
-countres = {} #empty Dictionary
+countries = {} #empty Dictionary
 d = {"Nepal":"Kathmandu","China":"Beijing","Japan":"Tokyo","Russia":"Moscow","Change":"Change"}
 
 print("Dictionary : ",d)
