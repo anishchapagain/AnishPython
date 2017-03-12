@@ -37,6 +37,10 @@ print("Split words : ",words.split())#List
 print("Join Lists : ", '__'.join(words.split()))
 
 
+#String Replace
+print("\nReplace 'Python' from '",words,"' :", words.replace('Python','Python Programming'))
+
+
 #use of Special Operators, helpful in Decision making 
 if "P" in words:
     print("'P' exist in Words")
@@ -46,6 +50,6 @@ if "p" in words:
 else:
     print("'p' doesnot exist in Words")
 
-
+#replace('existing char','new char'):
 #Strips: lstrip(), rstrip(), strip() removing spaces in Strings.
 #Other Decision Making functions: isalnum(), isalpha(),isdigit(),islower(),isnumeric(),isspace(),istitle(),isupper()

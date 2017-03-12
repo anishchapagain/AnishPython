@@ -19,3 +19,14 @@ else:
                 print("Age is > 30")
         else:
                 print("My Condition above didn't Matches")
+
+
+age=35
+#Ternary Expressions (value = true if condition else)
+#if condition:
+#        print
+#else:
+#        print
+
+print("\n Ternary Expressions")
+print('age is ',age if age >=30 else 'Less than 30')

@@ -1,5 +1,5 @@
 """
-String variable and some basic operations with Index
+String variable and some basic operations with Index, slicing etc..
 """
 
 words = "I Love Python"  #type 1
@@ -26,8 +26,12 @@ print("words[-3:-1] :", words[-3:-1])#0 to 10 char, change index values and chec
 print("words[:] :", words[:])#0 to 10 char, change index values and check!!
 print("words[:5] :", words[:5])#0 to 10 char, change index values and check!!
 
+#Printing Chars: every 2nd char of the String
+print(words[::2]) 
+
+
 #Loop: Strings with index
-print("Printing String with Its Inxex:\n")
+print("Printing String with Its Index:\n")
 
 count=0
 for char in words:
