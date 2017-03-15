@@ -22,6 +22,11 @@ print("Nations List: ", nations)
 nation = dict(nations) #2nd way
 print("Nation Dict: ", nation)
 
+print(sorted(nation))#sorts by Key only
+print(sorted(nation.values()))#sorts by Values only
+
 #combining
 #x = dict(list(dict.items())) 
 #x = dict(list(zip(listkey,listvalue)))
+
+#Use of Tuple Reference (*)

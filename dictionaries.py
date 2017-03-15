@@ -48,7 +48,7 @@ d["Singapore"]="Singapore City"
 d["Country"]="Capital"
 print("Dict added : ",d)
 
-#update:
+#update: concat (same keys with values provided)
 d.update({"UK":"London"})
 print("\nDict update() : ",d)
 
@@ -59,7 +59,6 @@ print("\nDict pop() : ",d)
 
 #popitem(): removes and returns (key,value) pair as Tuple()
 print("Popitem : ",d.popitem())
-print("Popitem : ",d.popitem())
 print("\nDict : ",d)
 
 #copy(): copy and generate new Dictionary
@@ -68,7 +67,7 @@ print("\nCopy copy() : ",dcopy)
 
 #clear(): clear content of Dictionary, set to empty
 print("\nClearing Copied Dict")
-dcopy.clear())
+dcopy.clear()
 print("Copy Dict : ",dcopy)
 
 #quit()
