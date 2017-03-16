@@ -28,5 +28,3 @@ print(sorted(nation.values()))#sorts by Values only
 #combining
 #x = dict(list(dict.items())) 
 #x = dict(list(zip(listkey,listvalue)))
-
-#Use of Tuple Reference (*)

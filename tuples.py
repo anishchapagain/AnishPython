@@ -24,5 +24,3 @@ tuple_a = ("JSON","23.45","Oreilly Publication")
 print(book)
 print(price)
 print(publication)
-
-quit()
