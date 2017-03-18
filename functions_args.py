@@ -1,7 +1,8 @@
 """
 Functions: tuple reference *
 """
-
+print("\n Example")
+#args
 def function_ref(x, y, *args): #*args: references tuple
     print ("\n X=", x, "& Y=", y) 
     print ("Args parameters : ", args)

@@ -39,7 +39,7 @@ dict_b = {"China":"Beijing", "Russia":"Moscow"}
 def merge_dicts(d1, d2):
     return {k: v for d in (d1, d2) for k, v in d.items()}
 
-dict_ab=merge_dicts(dict_a,dict_b)
+dict_ab = merge_dicts(dict_a , dict_b) 
 print(dict_ab)
 print("\n{k: v for d in (dict_a, dict_b) for k, v in d.items()} >> ",{k: v for d in (dict_a, dict_b) for k, v in d.items()})
 
