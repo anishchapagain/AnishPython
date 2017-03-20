@@ -6,7 +6,7 @@ print("\n Class Just Picking the concept")
 
 
 print("\n Example 1")
-class Classname: pass
+class Classname: pass 
 
 print("\n Example 2")
 class Classname:
