@@ -10,6 +10,7 @@ class Classname: pass
 
 print("\n Example 2")
 class Classname:
+    #Class Varaibles
     attribute1= 'attribute1 Here'
     attribute2 = 'attribute2 Here'
     attribute3 = 'attribute3 for Method'
