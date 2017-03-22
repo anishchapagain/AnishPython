@@ -1,6 +1,8 @@
 
+#http://pandas.pydata.org/pandas-docs/stable/10min.html
 #fileHandling : http://python-course.eu/file_management.php
 #os, sys : http://www.thomas-cokelaer.info/tutorials/python/module_os.html
+#pymotw
 
 from datetime import datetime
 import time
