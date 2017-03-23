@@ -4,6 +4,7 @@ print(os.getcwd())
 print(os.curdir)
 print(os.name)
 print(os.uname)
+print
 print(os.path)
 print(os.path.split())
 print(os.mkdir('dirname'))

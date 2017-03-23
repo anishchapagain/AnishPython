@@ -1,1 +1,5 @@
-If any argument is a float and there are fractional microseconds, the fractional microseconds left over from all arguments are combined and their sum is rounded to the nearest microsecond using round-half-to-even tiebreaker. If no argument is a float, the conversion and normalization processes are exact (no information is lost).
+If any argument is a float and there are fractional microseconds, 
+the fractional microseconds left over from all arguments are combined and their sum is rounded
+to the nearest microsecond using round-half-to-even tiebreaker. 
+If no argument is a float, 
+the conversion and normalization processes are exact (no information is lost).
