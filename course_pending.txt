@@ -1,0 +1,4 @@
+1. File Handling, Processing : CSV, JSON, XML - 1
+2. Pandas and Matplotlib -1 
+3. Tkinter-2
+4. Datetime and Pickle -1
