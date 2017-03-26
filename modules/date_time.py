@@ -70,4 +70,3 @@ print('ordinal:', today.toordinal())
 print('Year   :', today.year)
 print('Mon    :', today.month)
 print('Day    :', today.day)
-

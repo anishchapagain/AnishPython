@@ -5,6 +5,7 @@ http://www.regular-expressions.info/python.html
 https://developers.google.com/edu/python/regular-expressions
 """
 import re
+# Anchors: ^ begining of Line, $ end of line
 # re.search(pattern,str,re.I|re.MULTILINE|re.M)
 
 # #Findall
@@ -28,18 +29,35 @@ sentences = "OF bodies chang'd to various forms, I sing: Ye Gods, from whom thes
 print("\nSentence: ",sentences)
 
 meta = re.findall(r'[A-Za-z]{2}',sentences) # 2 char 
-print("\n[A-Za-z]{2} : ",meta)
+print("\n1 [A-Za-z]{2} : ",meta)
 
 meta = re.findall(r'[A-Za-z]{2}\s',sentences) #with spaces after 2 char
-print("\nr[A-Za-z]{2}\s : ",meta)
+print("\n2 [A-Za-z]{2}\s : ",meta)
 
 meta = re.findall(r'[A-Za-z]{2}\s(\w+)',sentences) #word after 2char and space
-print("\nr[A-Za-z]{2}\s(\w+) : ",meta)
+print("\n3 [A-Za-z]{2}\s(\w+) : ",meta)
 
 meta = re.findall(r'\b[A-Za-z]{2}\s(\w+)',sentences)
-print("\nr\b[A-Za-z]{2}\s(\w+) : ",meta)
+print("\n4 \b[A-Za-z]{2}\s(\w+) : ",meta)
 # print("Findall Length : ",len(meta))
 
 meta = re.findall(r'[A-Za-z]{2}\s(\w+)',sentences) #\w+ [a-zA-Z_0-9]
-print("Results : ",meta)
+print("\n5 [A-Za-z]{2}\s(\w+) : ",meta)
 print("Length : ",len(meta))
+
+#\b word boundary
+sentence='''Before the first character0 in the string0, if the first character1 is a word characters2.
+After the last character3 in the string1, if the last character4 is a word character5.
+Between two characters6 in the string2, where one is a word character7 and the other is not a word character8
+Also BETWEEN Any words \B works and now word Boundary'''
+meta = re.findall(r'in\s?(\w+)',sentence)
+print("\n6. Word Boundary: ",meta)
+meta = re.findall(r'\bin\s?(\w+)',sentence)
+print("7. Word Boundary: \\b : ",meta)
+
+meta = re.findall(r'e{2}n\s*(\w+)',sentence,flags=re.IGNORECASE)
+print("8. e{2}n\s*(\w+) : ",meta)
+
+meta = re.findall(r'e{2}n\s*(\w+)',sentence) # two 
+print("9. e{2}n\s*(\w+) : ",meta)
+
