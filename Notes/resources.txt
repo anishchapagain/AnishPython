@@ -1,0 +1,13 @@
+https://jeffknupp.com/blog/2013/04/07/improve-your-python-yield-and-generators-explained/
+http://python-course.eu/generators.php
+http://www.diveintopython3.net/xml.html
+http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/
+http://nbviewer.jupyter.org/urls/gist.github.com/fonnesbeck/5850375/raw/c18cfcd9580d382cb6d14e4708aab33a0916ff3e/1.+Introduction+to+Pandas.ipynb
+http://manishamde.github.io/blog/2013/03/07/pandas-and-python-top-10/
+http://tomaugspurger.github.io/archives.html
+http://pandas.pydata.org/pandas-docs/stable/10min.html
+https://regexone.com/references/python
+http://www.regular-expressions.info/python.html
+https://developers.google.com/edu/python/regular-expressions
+http://python-course.eu/file_management.php
+http://www.thomas-cokelaer.info/tutorials/python/module_os.html
