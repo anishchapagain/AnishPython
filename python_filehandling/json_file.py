@@ -19,6 +19,8 @@ print('dumps(data) : ', len(json.dumps(data)))
 print('dumps(data, indent=2)  :', len(json.dumps(data, indent=2)))
 print('dumps(data, separators):', len(json.dumps(data, separators=(',',':'))))
 
+print(jsonDump[2])
+quit()
 encoder = json.JSONEncoder()
 for element in encoder.iterencode(data):
     print("Element : ",element)
