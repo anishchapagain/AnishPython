@@ -11,3 +11,10 @@ http://www.regular-expressions.info/python.html
 https://developers.google.com/edu/python/regular-expressions
 http://python-course.eu/file_management.php
 http://www.thomas-cokelaer.info/tutorials/python/module_os.html
+
+##GUI Python
+http://www.tkdocs.com/tutorial/firstexample.html
+http://python-course.eu/python_tkinter.php
+
+#MatplotLib
+http://matplotlib.org/examples/index.html#
