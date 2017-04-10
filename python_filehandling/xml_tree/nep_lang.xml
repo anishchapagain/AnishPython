@@ -1,0 +1,3298 @@
+<?xml version="1.0" encoding="UTF-16" ?>
+<cesDoc version="3.19" id="A01" lang="nep">
+    <cesHeader version="2.1">
+        <fileDesc>
+            <titleStmt>
+                <h.title>NNC-CS: sample A01</h.title>
+                <respStmt>
+                    <respType>Electronic version created by</respType>
+                    <respName>Nelralec / Bhasha Sanchar Project (भाषा सञ्चार)</respName>
+                </respStmt>
+                <respStmt>
+                    <respType>transcribed by</respType>
+                    <respName>लक्ष्मीप्रसाद भट्टराई</respName>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <wordCount>2010</wordCount>
+                <byteCount units="kb">143</byteCount>
+            </extent>
+            <publicationStmt>
+                <distributor>Nelralec / Bhasha Sanchar Project (भाषा सञ्चार)</distributor>
+                <pubAddress>                    Madan Puraskar Pustakalaya                    P. O. Box 42                    Patan Dhoka                    Lalitpur                    NEPAL                    मदन पुरस्कार पुस्तकालय                    पोष्ट बक्स नं ४२                    पाटन ढोका                    ललितपुर                    नेपाल                    AND                    UCREL                    Department of Linguistics                    Lancaster University                    LA1 4YT                    UNITED KINGDOM                </pubAddress>
+                <availability region="world" />
+                <pubDate value="2007-05-17"></pubDate>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <h.title>ऊनी गलैंचा निकासीमा ५२.५ प्रतिशतले वृद्धि</h.title>
+                        <h.author>अज्ञात</h.author>
+                        <h.title>अर्थमन्त्रीद्वारा अर्थतन्त्रका विकृति कम गर्न उद्यत रहेको धारणा व्यक्त</h.title>
+                        <h.author>अज्ञात</h.author>
+                        <h.title>इराक-कुवेत सीमाबाट सेना हटाइने</h.title>
+                        <h.author>अज्ञात</h.author>
+                        <h.title>कुर्द शरणार्थी शिविरलाई राष्ट्र संघले आफ्नो नियन्त्रणमा लिने</h.title>
+                        <h.author>अज्ञात</h.author>
+                        <h.title>सही प्रजातन्त्र प्राप्त गर्न देशको आर्थिक अवस्था सुधार्नु आवश्यक</h.title>
+                        <h.author>अज्ञात</h.author>
+                        <h.title>चुनाव प्रचार प्रसार कार्यमा तीब्रता</h.title>
+                        <h.author>अज्ञात</h.author>
+                    </analytic>
+                    <monogr>
+                        <h.title>गोरखापत्र</h.title>
+                        <imprint>
+                            <publisher>गोरखापत्र संस्थान</publisher>
+                            <pubDate>२०४८-०१-२०; २०४८-०१-१५</pubDate>
+                            <pubPlace>काठमाडौं</pubPlace>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>                This electronic text forms part of the NEPALI NATIONAL CORPUS (NNC).                The CORE SAMPLE (NNC-CS) is a Nepali match for the FLOB and Frown Corpora,                consisting of 500 samples of 2,000 words of Nepali prose from the early 1990s.                The GENERAL COLLECTION (NNC-GC) is a much larger assembly of written texts                from a wide variety of sources, some recent, including internet news websites.                This corpus has been constructed by the Nelralec / Bhasha Sanchar Project,                undertaken by a consortium of the Open University, Madan Puraskar Pustakalaya,                Lancaster University, the University of Göteborg, ELRA (the European Language                 Resources Association) and Tribhuvan University.                                यो विद्युतीय पाठ नेपाली राष्ट्रिय पाठसङ्ग्रहको एउटा अंश हो।                 यसको मूल खण्ड फ्लोब र फ्राउन पाठसङ्ग्रहहरूसँग समानान्तर हुने गरी निर्माण गरिएको छ। यसमा सन् १९९० को दशकको सुरुका वर्षहरूमा नेपाली भाषामा प्रकाशन गरिएका निश्चित विधाहरू हरेकका २००० शब्दका दरले ५०० वटा गद्य लेखहरू सङ्गृहीत गरिएका छन्।               पाठसङ्ग्रहको वृहद् खण्ड विविध विधाका लिखित सामग्रीहरू सङ्कलन गरिएको अझ विस्तारित संग्रह हो। यसमा इन्टरनेटको वेबमा रहेका समाचारहरू समेत गरेर नयाँ र पुराना व्यापक स्रोतहरूबाट सामग्री सङ्कलन गरिएको छ।                यो पाठसङ्ग्रह ओपन विश्वविद्यालय, मदन पुरस्कार पुस्तकालय, ल्याङ्कास्टर विश्वविद्यालय, गोटेबर्ग विश्वविद्यालय, एल्रा (युरोपियन ल्याङ्वेज रिसोर्सेज एसोसिएन) र त्रिभुवन विश्वविद्यालयको सहकार्य नेल्रालेक / भाषा सञ्चार परियोजनाले निर्माण गरेको हो।              </projectDesc>
+            <editorialDecl>
+                <conformance level="1" />
+            </editorialDecl>
+            <tagsDecl>
+                <tagUsage gi="group" occurs="1" />
+                <tagUsage gi="body" occurs="6" />
+                <tagUsage gi="div" occurs="9" />
+                <tagUsage gi="head" occurs="11" />
+                <tagUsage gi="s" occurs="102" />
+                <tagUsage gi="p" occurs="76" />
+                <tagUsage gi="w" occurs="2812" />
+            </tagsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="nep" iso639="nep">Nepali</language>
+            </langUsage>
+        </profileDesc>
+    </cesHeader>
+    <text>
+        <group>
+            <body>
+                <div type="unspec">
+                    <head>
+                        <s n="1">
+                            <w ctag="DDX">ऊनी</w>
+                            <w ctag="NN">गलैंचा</w>
+                            <w ctag="NN">निकासी</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="MM">५२.</w>
+                            <w ctag="MM">५</w>
+                            <w ctag="NN">प्रतिशत</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="NN">वृद्धि</w>
+                        </s>
+                    </head>
+                    <head>
+                        <s n="2">
+                            <w ctag="YB">(</w>
+                            <w ctag="NN">गोरखापत्र</w>
+                            <w ctag="NN">समाचारदाता</w>
+                            <w ctag="YB">)</w>
+                        </s>
+                    </head>
+                    <p>
+                        <s n="3">
+                            <w ctag="NP">काठमाडौं</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NN">वैशाख</w>
+                            <w ctag="MM">१९</w>
+                            <w ctag="NN">गते</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                        <s n="4">
+                            <w ctag="NP">नेपाल</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">निकासी</w>
+                            <w ctag="NN">व्यापार</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="DDX">ऊनी</w>
+                            <w ctag="NN">गलैंचा</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="JX">चालू</w>
+                            <w ctag="JX">आर्थिक</w>
+                            <w ctag="NN">वर्ष</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="TT">पनि</w>
+                            <w ctag="MOM">पहिलो</w>
+                            <w ctag="NN">स्थान</w>
+                            <w ctag="VE">ओगटे</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="5">
+                            <w ctag="JX">चालू</w>
+                            <w ctag="JX">आर्थिक</w>
+                            <w ctag="NN">वर्ष</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="MOM">पहिलो</w>
+                            <w ctag="MM">सात</w>
+                            <w ctag="NN">महीना</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="JX">अघिल्लो</w>
+                            <w ctag="JX">आर्थिक</w>
+                            <w ctag="NN">वर्ष</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="DDX">सोही</w>
+                            <w ctag="NN">अवधि</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">तुलना</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="MM">५२.</w>
+                            <w ctag="MM">५</w>
+                            <w ctag="NN">प्रतिशत</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="NN">बृद्धि</w>
+                            <w ctag="VQ">भई</w>
+                            <w ctag="MM">एक</w>
+                            <w ctag="MM">अरब</w>
+                            <w ctag="MM">९३</w>
+                            <w ctag="MM">करोड</w>
+                            <w ctag="MM">३९</w>
+                            <w ctag="MM">लाख</w>
+                            <w ctag="MM">९८</w>
+                            <w ctag="MM">हजार</w>
+                            <w ctag="NN">रूपैयाँ</w>
+                            <w ctag="NN">मूल्य</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="MM">नौ</w>
+                            <w ctag="MM">लाख</w>
+                            <w ctag="MM">२५</w>
+                            <w ctag="MM">हजार</w>
+                            <w ctag="MM">३९८</w>
+                            <w ctag="NN">वर्गमिटर</w>
+                            <w ctag="DDX">ऊनी</w>
+                            <w ctag="NN">गलैंचा</w>
+                            <w ctag="NN">समुद्रपार</w>
+                            <w ctag="NN">मुलुक</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="II">तर्फ</w>
+                            <w ctag="NN">निकासी</w>
+                            <w ctag="VE">भए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">कुरा</w>
+                            <w ctag="NN">व्यापार</w>
+                            <w ctag="NN">प्रबर्द्धन</w>
+                            <w ctag="NN">केन्द्र</w>
+                            <w ctag="II">बाट</w>
+                            <w ctag="JX">प्राप्त</w>
+                            <w ctag="JX">प्रारम्भिक</w>
+                            <w ctag="NN">तथ्यांक</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NN">उल्लेख</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="6">
+                            <w ctag="JX">गत</w>
+                            <w ctag="JX">आर्थिक</w>
+                            <w ctag="NN">वर्ष</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="DDX">सोही</w>
+                            <w ctag="NN">अवधि</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="MM">एक</w>
+                            <w ctag="MM">अरब</w>
+                            <w ctag="MM">२६</w>
+                            <w ctag="MM">करोड</w>
+                            <w ctag="MM">८४</w>
+                            <w ctag="MM">लाख</w>
+                            <w ctag="MM">४५</w>
+                            <w ctag="MM">हजार</w>
+                            <w ctag="NN">रूपियाँ</w>
+                            <w ctag="NN">मूल्य</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="MM">लाख</w>
+                            <w ctag="MM">४३</w>
+                            <w ctag="MM">हजार</w>
+                            <w ctag="MM">५६०</w>
+                            <w ctag="NN">वर्गमिटर</w>
+                            <w ctag="DDX">ऊनी</w>
+                            <w ctag="NN">गलैंचा</w>
+                            <w ctag="NN">समुद्रपार</w>
+                            <w ctag="NN">मुलुक</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="II">तर्फ</w>
+                            <w ctag="NN">निकासी</w>
+                            <w ctag="VE">भए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="TT">पनि</w>
+                            <w ctag="NN">केन्द्र</w>
+                            <w ctag="II">बाट</w>
+                            <w ctag="NN">थाहा</w>
+                            <w ctag="VE">भए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                </div>
+                <div type="unspec">
+                    <head>
+                        <s n="7">
+                            <w ctag="NN">वृद्धि</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">संभावना</w>
+                            <w ctag="YM">:</w>
+                        </s>
+                    </head>
+                    <p>
+                        <s n="8">
+                            <w ctag="JX">आर्थिक</w>
+                            <w ctag="NN">वर्ष</w>
+                            <w ctag="MM">२०४३</w>
+                            <w ctag="YF">।</w>
+                            <w ctag="MM">४४</w>
+                            <w ctag="II">देखि</w>
+                            <w ctag="DDX">ऊनी</w>
+                            <w ctag="NN">गलैंचा</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="NN">समुद्रपार</w>
+                            <w ctag="NN">निकासी</w>
+                            <w ctag="NN">व्यापार</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="MOM">पहिलो</w>
+                            <w ctag="NN">स्थान</w>
+                            <w ctag="NN">ओगट्नथा</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">हो</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="9">
+                            <w ctag="NN">केन्द्र</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="JX">मुख्य</w>
+                            <w ctag="NN">तथ्यांक</w>
+                            <w ctag="NN">विज्ञ</w>
+                            <w ctag="NP">दिवाकर</w>
+                            <w ctag="NP">रिसाल</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="DDX">ऊनी</w>
+                            <w ctag="NN">गलैंचा</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">निकासी</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="JX">वर्तमान</w>
+                            <w ctag="NN">बृद्धिदर</w>
+                            <w ctag="JX">कायम</w>
+                            <w ctag="TT">नै</w>
+                            <w ctag="VE">रहे</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="JX">चालू</w>
+                            <w ctag="JX">आर्थिक</w>
+                            <w ctag="NN">वर्ष</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">अन्त्य</w>
+                            <w ctag="II">सम्म</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="MM">तीन</w>
+                            <w ctag="MM">अरब</w>
+                            <w ctag="NN">रूपियाँ</w>
+                            <w ctag="RR">मूल्यभन्दा</w>
+                            <w ctag="JX">बढी</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">निकासी</w>
+                            <w ctag="VN">हुने</w>
+                            <w ctag="NN">आशा</w>
+                            <w ctag="NN">व्यक्त</w>
+                            <w ctag="VE">गर्नुभए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="10">
+                            <w ctag="JX">केन्द्रीय</w>
+                            <w ctag="NN">गलैंचा</w>
+                            <w ctag="NN">उद्योग</w>
+                            <w ctag="NN">संघ</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="NN">अध्यक्ष</w>
+                            <w ctag="NN">विजयबहादुर</w>
+                            <w ctag="NP">श्रेष्ठ</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="II">अनुसार</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="JX">चालू</w>
+                            <w ctag="JX">आर्थिक</w>
+                            <w ctag="NN">वर्षभर</w>
+                            <w ctag="DKX">कति</w>
+                            <w ctag="DDX">ऊनी</w>
+                            <w ctag="NN">गलैंचा</w>
+                            <w ctag="NN">निकासी</w>
+                            <w ctag="VVYN1">हुन्छ</w>
+                            <w ctag="VQ">भनी</w>
+                            <w ctag="RR">पहिले</w>
+                            <w ctag="TT">नै</w>
+                            <w ctag="NN">पूर्वानुमान</w>
+                            <w ctag="VVYN1">गर्नसकिदैन</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="11">
+                            <w ctag="NN">उत्पादन</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="JX">वित्तीय</w>
+                            <w ctag="NN">स्थिति</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NN">वातावरण</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">कुरो</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NN">बजार</w>
+                            <w ctag="NN">उपलब्धता</w>
+                            <w ctag="RR">आदि</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="DDX">ऊनी</w>
+                            <w ctag="NN">गलैंचा</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">निकासी</w>
+                            <w ctag="JX">प्रभावित</w>
+                            <w ctag="VN">पार्ने</w>
+                            <w ctag="VDX">बताउँदै</w>
+                            <w ctag="NN">अध्यक्ष</w>
+                            <w ctag="NN">श्री</w>
+                            <w ctag="NP">श्रेष्ठ</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="NN">गलैंचा</w>
+                            <w ctag="NN">धुवाई</w>
+                            <w ctag="NN">मेशिन</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="VQ">ल्याएर</w>
+                            <w ctag="NN">गलैंचा</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">धुवाई</w>
+                            <w ctag="NN">नेपालमै</w>
+                            <w ctag="VI">गरिना</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="NN">गलैंचा</w>
+                            <w ctag="NN">व्यवसाय</w>
+                            <w ctag="II">सँग</w>
+                            <w ctag="JX">सम्बन्धित</w>
+                            <w ctag="JX">विदेशी</w>
+                            <w ctag="NN">उद्यमी</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="IA">लाई</w>
+                            <w ctag="JX">प्रतिकूल</w>
+                            <w ctag="NN">असर</w>
+                            <w ctag="VE">पारे</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="DDX">ती</w>
+                            <w ctag="NN">उद्यमी</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="NP">नेपाल</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NN">धुवाइ</w>
+                            <w ctag="VE">गरिए</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="NN">गलैंचा</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="JX">प्रदूषित</w>
+                            <w ctag="VN">हुने</w>
+                            <w ctag="NN">हल्ला</w>
+                            <w ctag="VI">गर्न</w>
+                            <w ctag="VE">थाले</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="VVYX2">छन्</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                        <s n="12">
+                            <w ctag="CSB">यदि</w>
+                            <w ctag="DDM">त्यस्तो</w>
+                            <w ctag="NN">हल्ला</w>
+                            <w ctag="VE">फैलिए</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NN">निकासी</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="JM">नराम्रो</w>
+                            <w ctag="NN">असर</w>
+                            <w ctag="VN">पर्ने</w>
+                            <w ctag="VE">बताउनुभए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                </div>
+                <div type="unspec">
+                    <head>
+                        <s n="13">
+                            <w ctag="JX">नीतिगत</w>
+                            <w ctag="NN">समस्या</w>
+                            <w ctag="YM">:</w>
+                        </s>
+                    </head>
+                    <p>
+                        <s n="14">
+                            <w ctag="NN">संघ</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="II">अनुसार</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NN">मंसीर</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="MOM">पहिलो</w>
+                            <w ctag="NN">साता</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="DDX">ऊनी</w>
+                            <w ctag="NN">गलैंचा</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="YQ">'</w>
+                            <w ctag="NN">फ्लोर</w>
+                            <w ctag="NN">मूल्य</w>
+                            <w ctag="YQ">'</w>
+                            <w ctag="MM">७२</w>
+                            <w ctag="JX">अमेरिकी</w>
+                            <w ctag="NN">डलर</w>
+                            <w ctag="NN">प्रतिवर्गमिटर</w>
+                            <w ctag="NN">निर्धारण</w>
+                            <w ctag="VE">गरिए</w>
+                            <w ctag="II">पछि</w>
+                            <w ctag="NN">निकासी</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NN">कमी</w>
+                            <w ctag="VE">आए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="CC">र</w>
+                            <w ctag="RD">अहिले</w>
+                            <w ctag="JX">करीब</w>
+                            <w ctag="NN">डेढलाख</w>
+                            <w ctag="NN">वर्गमिटर</w>
+                            <w ctag="DDX">ऊनी</w>
+                            <w ctag="NN">गलैंचा</w>
+                            <w ctag="NN">निकासी</w>
+                            <w ctag="VI">हुन</w>
+                            <w ctag="VQ">नसकी</w>
+                            <w ctag="DDX">त्यसै</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="15">
+                            <w ctag="RR">यसभन्दा</w>
+                            <w ctag="NN">पूर्व</w>
+                            <w ctag="YQ">'</w>
+                            <w ctag="NN">फ्लोर</w>
+                            <w ctag="NN">मूल्य</w>
+                            <w ctag="YQ">'</w>
+                            <w ctag="MM">६७</w>
+                            <w ctag="JX">अमेरिकी</w>
+                            <w ctag="NN">डलर</w>
+                            <w ctag="NN">प्रतिवर्गमिटर</w>
+                            <w ctag="VE">रहिआए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">थियो</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="16">
+                            <w ctag="JX">परिवर्तित</w>
+                            <w ctag="NN">फ्लोर</w>
+                            <w ctag="NN">मूल्य</w>
+                            <w ctag="IA">लाई</w>
+                            <w ctag="VQ">लिएर</w>
+                            <w ctag="NN">गलैंचा</w>
+                            <w ctag="NN">निकासीकर्ता</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="II">बीच</w>
+                            <w ctag="NN">मतैक्य</w>
+                            <w ctag="JX">कायम</w>
+                            <w ctag="VE">हुनसके</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">छैन</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                        <s n="17">
+                            <w ctag="MM">केही</w>
+                            <w ctag="NN">निकासीकर्ता</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="YQ">'</w>
+                            <w ctag="NN">फ्लोर</w>
+                            <w ctag="NN">मूल्य</w>
+                            <w ctag="YQ">'</w>
+                            <w ctag="VVYN1">घटाउनुपर्छ</w>
+                            <w ctag="CSA">भन्ने</w>
+                            <w ctag="NN">माग</w>
+                            <w ctag="VE">गरिरहे</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="VVYX2">छन्</w>
+                            <w ctag="CSA">भने</w>
+                            <w ctag="MM">केही</w>
+                            <w ctag="NN">निकासीकर्ता</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="NN">मूल्य</w>
+                            <w ctag="VI">घटाउन</w>
+                            <w ctag="VN">नपर्ने</w>
+                            <w ctag="NN">पक्ष</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="VVYX2">छन्</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="18">
+                            <w ctag="NN">अध्यक्ष</w>
+                            <w ctag="NP">श्रेष्ठ</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="II">अनुसार</w>
+                            <w ctag="NN">उत्पादक</w>
+                            <w ctag="CC">तथा</w>
+                            <w ctag="NN">निकासीकर्ता</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="JX">खास</w>
+                            <w ctag="NN">लागत</w>
+                            <w ctag="IA">लाई</w>
+                            <w ctag="NN">ध्यान</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="VQ">राखेर</w>
+                            <w ctag="NN">मूल्यनिर्धारण</w>
+                            <w ctag="VI">गरिनु</w>
+                            <w ctag="JX">आवश्यक</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                        <s n="19">
+                            <w ctag="RD">अहिले</w>
+                            <w ctag="NN">मूल्यांकन</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="DKX">कुनै</w>
+                            <w ctag="JX">ठोस</w>
+                            <w ctag="NN">प्रक्रिया</w>
+                            <w ctag="VE">देखिए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">छैन</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                        <s n="20">
+                            <w ctag="NN">फ्लोर</w>
+                            <w ctag="NN">मूल्य</w>
+                            <w ctag="NN">निर्धारण</w>
+                            <w ctag="VDO">गर्दा</w>
+                            <w ctag="NN">गलैंचा</w>
+                            <w ctag="NN">निर्यात</w>
+                            <w ctag="VN">हुनसक्ने</w>
+                            <w ctag="NN">स्थिति</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NN">अवरोध</w>
+                            <w ctag="VI">ल्याइनु</w>
+                            <w ctag="VVYN1">हुन्न</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                </div>
+                <div type="unspec">
+                    <head>
+                        <s n="21">
+                            <w ctag="NN">सुझाव</w>
+                            <w ctag="NN">उप-समिति</w>
+                        </s>
+                    </head>
+                    <p>
+                        <s n="22">
+                            <w ctag="DDX">यसै</w>
+                            <w ctag="NN">बीच</w>
+                            <w ctag="NN">निकासी</w>
+                            <w ctag="NN">सेवा</w>
+                            <w ctag="NN">केन्द्र</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="NN">निर्देशक</w>
+                            <w ctag="NP">हरिप्रसाद</w>
+                            <w ctag="NP">शर्मा</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">संयोजकत्व</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="DDX">ऊनी</w>
+                            <w ctag="NN">गलैंचा</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">फ्लोर</w>
+                            <w ctag="JX">मूल्यसहित</w>
+                            <w ctag="DGX">अन्य</w>
+                            <w ctag="JX">सम्बद्ध</w>
+                            <w ctag="NN">सुझाव</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="JX">प्रस्तुत</w>
+                            <w ctag="VI">गर्न</w>
+                            <w ctag="MM">एक</w>
+                            <w ctag="NN">उप-समिति</w>
+                            <w ctag="NN">गठन</w>
+                            <w ctag="VE">गरिए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                </div>
+            </body>
+            <body>
+                <div type="unspec">
+                    <head>
+                        <s n="23">
+                            <w ctag="NN">अर्थमन्त्री</w>
+                            <w ctag="II">द्वारा</w>
+                            <w ctag="NN">अर्थतन्त्र</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="NN">विकृति</w>
+                            <w ctag="JX">कम</w>
+                            <w ctag="VI">गर्न</w>
+                            <w ctag="NN">उद्यत</w>
+                            <w ctag="VE">रहे</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">धारणा</w>
+                            <w ctag="NN">व्यक्त</w>
+                        </s>
+                    </head>
+                    <p>
+                        <s n="24">
+                            <w ctag="NP">काठमाडौं</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NN">वैशाख</w>
+                            <w ctag="MM">१९</w>
+                            <w ctag="NN">गते</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                        <s n="25">
+                            <w ctag="NN">अर्थमंत्री</w>
+                            <w ctag="FB">डा.</w>
+                            <w ctag="NP">देवेन्द्रराज</w>
+                            <w ctag="NP">पाण्डे</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="JX">गत</w>
+                            <w ctag="MM">एक</w>
+                            <w ctag="NN">वर्ष</w>
+                            <w ctag="PRFKM">आफ्नो</w>
+                            <w ctag="JX">पूरा</w>
+                            <w ctag="NN">प्रयत्न</w>
+                            <w ctag="TT">नै</w>
+                            <w ctag="VE">सके</w>
+                            <w ctag="II">सम्म</w>
+                            <w ctag="NN">अर्थतन्त्र</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="NN">विकृति</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="JX">कम</w>
+                            <w ctag="VN">गर्ने</w>
+                            <w ctag="II">तर्फ</w>
+                            <w ctag="VE">रहे</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">कुरा</w>
+                            <w ctag="VI">बताउनु</w>
+                            <w ctag="VE">भए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="26">
+                            <w ctag="FB">डा.</w>
+                            <w ctag="NP">पाण्डे</w>
+                            <w ctag="NN">हिजो</w>
+                            <w ctag="RD">यहाँ</w>
+                            <w ctag="NP">रासस</w>
+                            <w ctag="II">सँग</w>
+                            <w ctag="NN">कुरा</w>
+                            <w ctag="VDX">गर्दै</w>
+                            <w ctag="VVYN1">हुनुहुन्थ्यो</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="27">
+                            <w ctag="JX">गत</w>
+                            <w ctag="NN">वर्ष</w>
+                            <w ctag="NN">पद</w>
+                            <w ctag="VDO">संभाल्दा</w>
+                            <w ctag="JX">निर्वाचित</w>
+                            <w ctag="NN">सरकार</w>
+                            <w ctag="NN">गठन</w>
+                            <w ctag="VE">नभए</w>
+                            <w ctag="II">सम्म</w>
+                            <w ctag="NN">अर्थतन्त्र</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">व्यवस्थापन</w>
+                            <w ctag="RR">राम्ररी</w>
+                            <w ctag="VN">गर्ने</w>
+                            <w ctag="CC">र</w>
+                            <w ctag="JX">निर्वाचित</w>
+                            <w ctag="NN">सरकार</w>
+                            <w ctag="IA">लाई</w>
+                            <w ctag="NN">भार</w>
+                            <w ctag="VN">पर्ने</w>
+                            <w ctag="NN">कुरा</w>
+                            <w ctag="MM">केही</w>
+                            <w ctag="VN">नगर्ने</w>
+                            <w ctag="VI">भन्नु</w>
+                            <w ctag="VE">भए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">थियो</w>
+                            <w ctag="TT">के</w>
+                            <w ctag="DDX">त्यसै</w>
+                            <w ctag="II">अनुरुप</w>
+                            <w ctag="NN">काम</w>
+                            <w ctag="VVYN1">भयो</w>
+                            <w ctag="VQ">भनी</w>
+                            <w ctag="VDO">सोद्धा</w>
+                            <w ctag="FB">डा.</w>
+                            <w ctag="NP">पाण्डे</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="YQ">"</w>
+                            <w ctag="PRF">आफू</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="NN">कबूल</w>
+                            <w ctag="VE">गरे</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">उद्देश्य</w>
+                            <w ctag="NN">पूर्णरुप</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="NN">पूर्ति</w>
+                            <w ctag="YQ">"</w>
+                            <w ctag="VE">भए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">दावी</w>
+                            <w ctag="VVYN1">गर्नुभयो</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="28">
+                            <w ctag="DJX">जुन</w>
+                            <w ctag="NN">प्रकार</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="JX">अनियन्त्रित</w>
+                            <w ctag="NN">माग</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="II">विना</w>
+                            <w ctag="NN">सुझवुझ</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="JX">राजनीतिक</w>
+                            <w ctag="NN">दवाव</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="CC">र</w>
+                            <w ctag="JX">प्रजातान्त्रिक</w>
+                            <w ctag="NN">सरकार</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="JX">प्रजातान्त्रिक</w>
+                            <w ctag="NN">तरीका</w>
+                            <w ctag="II">बाट</w>
+                            <w ctag="VI">जुध्नु</w>
+                            <w ctag="VN">पर्ने</w>
+                            <w ctag="JX">पंचायती</w>
+                            <w ctag="JX">आर्थिक</w>
+                            <w ctag="NN">संस्कृति</w>
+                            <w ctag="CC">र</w>
+                            <w ctag="NN">संस्कार</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="NN">समस्या</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="VVYX2">थिए</w>
+                            <w ctag="DDX">त्यस</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">तुलना</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="JX">विगत</w>
+                            <w ctag="NN">वर्ष</w>
+                            <w ctag="VE">भए</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="NN">कार्य</w>
+                            <w ctag="IA">लाई</w>
+                            <w ctag="VDO">हेर्दा</w>
+                            <w ctag="VE">भने</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">उद्देश्य</w>
+                            <w ctag="NN">पूर्ति</w>
+                            <w ctag="VE">भए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">कुरा</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">चर्चा</w>
+                            <w ctag="PXH">उहाँ</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="VVYN1">गर्नुभयो</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="29">
+                            <w ctag="FB">डा.</w>
+                            <w ctag="NP">पाण्डे</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="VVYN1">भन्नुभयो</w>
+                            <w ctag="YM">-</w>
+                            <w ctag="JX">निर्वाचित</w>
+                            <w ctag="NN">सरकार</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">काम</w>
+                            <w ctag="RR">ज्यादै</w>
+                            <w ctag="JX">कठिन</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="CSB">किनभने</w>
+                            <w ctag="MM">३०</w>
+                            <w ctag="JX">वर्षे</w>
+                            <w ctag="NN">विकृति</w>
+                            <w ctag="IA">लाई</w>
+                            <w ctag="NN">जनता</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">पक्ष</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="JX">सकारात्मक</w>
+                            <w ctag="NN">मोड</w>
+                            <w ctag="VN">दिने</w>
+                            <w ctag="VVYN1">हो</w>
+                            <w ctag="CSA">भने</w>
+                            <w ctag="VN">गर्नुपर्ने</w>
+                            <w ctag="NN">कुरा</w>
+                            <w ctag="JX">थुप्रै</w>
+                            <w ctag="VVYX2">छन्</w>
+                            <w ctag="DJX">जस</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="JX">अन्तरिम</w>
+                            <w ctag="NN">सरकार</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="NN">योगदान</w>
+                            <w ctag="VI">गर्न</w>
+                            <w ctag="JX">संभव</w>
+                            <w ctag="VVYN1">थिएन</w>
+                            <w ctag="CC">तर</w>
+                            <w ctag="PMX">हामी</w>
+                            <w ctag="II">बाट</w>
+                            <w ctag="DDM">त्यस्तो</w>
+                            <w ctag="NN">भार</w>
+                            <w ctag="MM">केही</w>
+                            <w ctag="NN">मात्रा</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="CSA">भएपनि</w>
+                            <w ctag="JX">कम</w>
+                            <w ctag="VE">भए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="VE">थपिए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">छैन</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="30">
+                            <w ctag="MM">एक</w>
+                            <w ctag="NN">प्रश्न</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">उत्तर</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="FB">डा.</w>
+                            <w ctag="NP">पाण्डे</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="VVYN1">भन्नुभयो</w>
+                            <w ctag="YM">-</w>
+                            <w ctag="JX">पंचायती</w>
+                            <w ctag="NN">शासन</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="JX">अन्तिम</w>
+                            <w ctag="MM">२</w>
+                            <w ctag="NN">वर्ष</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="JX">गार्हस्थ</w>
+                            <w ctag="NN">उत्पादन</w>
+                            <w ctag="RR">करीब</w>
+                            <w ctag="MM">२</w>
+                            <w ctag="NN">प्रतिशत</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="TT">मात्र</w>
+                            <w ctag="NN">वृद्धि</w>
+                            <w ctag="VE">भए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="DDX">यस</w>
+                            <w ctag="NN">वर्ष</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">उत्पादन</w>
+                            <w ctag="MM">३.</w>
+                            <w ctag="MM">८</w>
+                            <w ctag="NN">प्रतिशत</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="NN">बृद्धि</w>
+                            <w ctag="VN">हुने</w>
+                            <w ctag="NN">लक्षण</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="31">
+                            <w ctag="NN">कृषि</w>
+                            <w ctag="NN">उत्पादन</w>
+                            <w ctag="NN">वृद्धि</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="JX">सरकारी</w>
+                            <w ctag="NN">नीति</w>
+                            <w ctag="CC">र</w>
+                            <w ctag="RR">कार्यभन्दा</w>
+                            <w ctag="NN">मौसम</w>
+                            <w ctag="IKX">कै</w>
+                            <w ctag="NN">योगदान</w>
+                            <w ctag="JX">बढी</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="CSA">तापनि</w>
+                            <w ctag="NN">उद्योग</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NN">व्यापार</w>
+                            <w ctag="CC">र</w>
+                            <w ctag="DGX">अन्य</w>
+                            <w ctag="NN">सेवा</w>
+                            <w ctag="II">तर्फ</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">उत्पादन</w>
+                            <w ctag="NN">वृद्धि</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NN">प्रधानमंत्री</w>
+                            <w ctag="NP">कृष्णप्रसाद</w>
+                            <w ctag="NP">भट्टराई</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">नेतृत्व</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="JX">अन्तरिम</w>
+                            <w ctag="NN">सरकार</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="VE">सुल्झाए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">मित्रराष्ट्र</w>
+                            <w ctag="NP">भारत</w>
+                            <w ctag="II">सँग</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">व्यापार</w>
+                            <w ctag="NN">संबन्ध</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="JM">ठूलो</w>
+                            <w ctag="NN">भूमिका</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="CSA">भन्ने</w>
+                            <w ctag="NN">कुरा</w>
+                            <w ctag="PXH">उहाँ</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="VI">बताउनु</w>
+                            <w ctag="VVYN1">भयो</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="32">
+                            <w ctag="JX">सरकारी</w>
+                            <w ctag="NN">वित्त</w>
+                            <w ctag="NN">सम्बन्ध</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NN">राजश्व</w>
+                            <w ctag="CC">र</w>
+                            <w ctag="NN">खर्च</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">ढाँचा</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="DJX">जति</w>
+                            <w ctag="NN">सुधार</w>
+                            <w ctag="VI">ल्याउनु</w>
+                            <w ctag="VN">पर्ने</w>
+                            <w ctag="VVYN1">हो</w>
+                            <w ctag="DDX">त्यो</w>
+                            <w ctag="VI">गर्न</w>
+                            <w ctag="DDX">यस</w>
+                            <w ctag="NN">वर्ष</w>
+                            <w ctag="VI">सकिएन</w>
+                            <w ctag="VDX">भन्दै</w>
+                            <w ctag="PXH">उहाँ</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="CC">तर</w>
+                            <w ctag="JX">वित्तीय</w>
+                            <w ctag="NN">सन्तुलन</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NN">सुधार</w>
+                            <w ctag="VI">ल्याउन</w>
+                            <w ctag="DJX">जुन</w>
+                            <w ctag="NN">आवश्यकता</w>
+                            <w ctag="VVYN1">थियो</w>
+                            <w ctag="DDX">सो</w>
+                            <w ctag="VVYN1">गरियो</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                        <s n="33">
+                            <w ctag="JX">चालू</w>
+                            <w ctag="JX">आर्थिक</w>
+                            <w ctag="NN">वर्ष</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="MOM">पहिलो</w>
+                            <w ctag="MM">आठ</w>
+                            <w ctag="NN">महीना</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NN">श्री</w>
+                            <w ctag="MM">५</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">सरकार</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="JX">कूल</w>
+                            <w ctag="NN">खर्च</w>
+                            <w ctag="JX">विगत</w>
+                            <w ctag="JX">आर्थिक</w>
+                            <w ctag="NN">वर्ष</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="DDX">यसै</w>
+                            <w ctag="NN">अवधि</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">तुलना</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="MM">१४.</w>
+                            <w ctag="MM">५</w>
+                            <w ctag="NN">प्रतिशत</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="NN">वृद्धि</w>
+                            <w ctag="VVYN1">भयो</w>
+                            <w ctag="CSA">भन्ने</w>
+                            <w ctag="NN">जानकारी</w>
+                            <w ctag="VI">दिनु</w>
+                            <w ctag="VVYN1">भयो</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="34">
+                            <w ctag="JX">कूल</w>
+                            <w ctag="NN">साधन</w>
+                            <w ctag="MM">१३.</w>
+                            <w ctag="MM">६</w>
+                            <w ctag="NN">प्रतिशत</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="NN">वृद्धि</w>
+                            <w ctag="VE">भए</w>
+                            <w ctag="CSB">तापनि</w>
+                            <w ctag="NN">राजश्व</w>
+                            <w ctag="NN">वृद्धि</w>
+                            <w ctag="MM">२०.</w>
+                            <w ctag="MM">२</w>
+                            <w ctag="NN">प्रतिशत</w>
+                            <w ctag="VE">रहे</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="CC">र</w>
+                            <w ctag="RR">फलस्वरुप</w>
+                            <w ctag="DDX">यस</w>
+                            <w ctag="NN">अवधि</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="TT">केवल</w>
+                            <w ctag="FB">रु.</w>
+                            <w ctag="MM">१७</w>
+                            <w ctag="MM">करोड</w>
+                            <w ctag="TT">मात्र</w>
+                            <w ctag="JX">आन्तरिक</w>
+                            <w ctag="NN">ऋण</w>
+                            <w ctag="NN">उठ्ती</w>
+                            <w ctag="VE">गरिए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                        <s n="35">
+                            <w ctag="DDX">यस</w>
+                            <w ctag="NN">वर्ष</w>
+                            <w ctag="NN">संक्रमणकाल</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="VE">उब्जाए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="MM">एक</w>
+                            <w ctag="NN">किसिम</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">अराजकता</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">स्थिति</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="DDX">यो</w>
+                            <w ctag="JX">स्यानो</w>
+                            <w ctag="NN">उपलब्धि</w>
+                            <w ctag="VVYN1">होईन</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="PXH">उहाँ</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="VVYN1">भन्नुभयो</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="36">
+                            <w ctag="JX">पंचायती</w>
+                            <w ctag="NN">सरकार</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="NN">बजेट</w>
+                            <w ctag="NN">घाटा</w>
+                            <w ctag="VN">व्यहोर्ने</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="MM">३.</w>
+                            <w ctag="MM">८</w>
+                            <w ctag="NN">प्रतिशत</w>
+                            <w ctag="NN">व्याजदर</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NN">ओभर</w>
+                            <w ctag="NN">ड्राफ्ट</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">रुप</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NP">नेपाल</w>
+                            <w ctag="NN">राष्ट्र</w>
+                            <w ctag="NN">बैंक</w>
+                            <w ctag="II">बाट</w>
+                            <w ctag="NN">ऋण</w>
+                            <w ctag="VQ">लिएर</w>
+                            <w ctag="NN">बजेट</w>
+                            <w ctag="NN">खर्च</w>
+                            <w ctag="JX">पूरा</w>
+                            <w ctag="VN">गर्ने</w>
+                            <w ctag="JM">सजिलो</w>
+                            <w ctag="NN">प्रक्रिया</w>
+                            <w ctag="VE">अपनाए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">थियो</w>
+                            <w ctag="CC">र</w>
+                            <w ctag="NN">मुद्रा</w>
+                            <w ctag="NN">प्रदाय</w>
+                            <w ctag="NN">विस्तार</w>
+                            <w ctag="VN">गर्ने</w>
+                            <w ctag="JX">प्रमुख</w>
+                            <w ctag="NN">कारक</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="II">मध्ये</w>
+                            <w ctag="NN">श्री</w>
+                            <w ctag="MM">५</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">सरकार</w>
+                            <w ctag="TT">नै</w>
+                            <w ctag="JX">प्रमुख</w>
+                            <w ctag="VI">हुन</w>
+                            <w ctag="VE">पुगे</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">थियो</w>
+                            <w ctag="CSA">भन्ने</w>
+                            <w ctag="NN">स्मरण</w>
+                            <w ctag="VDX">गर्दै</w>
+                            <w ctag="FB">डा.</w>
+                            <w ctag="NP">पाण्डे</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="VI">भन्नु</w>
+                            <w ctag="VVYN1">भयो</w>
+                            <w ctag="YM">-</w>
+                            <w ctag="NN">विगत</w>
+                            <w ctag="MM">एक</w>
+                            <w ctag="NN">वर्ष</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">अवधि</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NN">मुद्रा</w>
+                            <w ctag="NN">प्रदाय</w>
+                            <w ctag="NN">विस्तार</w>
+                            <w ctag="VN">हुने</w>
+                            <w ctag="DDX">यस</w>
+                            <w ctag="NN">कारक</w>
+                            <w ctag="IA">लाई</w>
+                            <w ctag="NN">नियन्त्रण</w>
+                            <w ctag="VI">गर्न</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="JM">राम्रो</w>
+                            <w ctag="NN">सफलता</w>
+                            <w ctag="NN">हासिल</w>
+                            <w ctag="VE">भए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="37">
+                            <w ctag="NN">विगत</w>
+                            <w ctag="MM">२०४६</w>
+                            <w ctag="NN">फागुन</w>
+                            <w ctag="II">सम्म</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NN">सरकार</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="VE">लिए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">ओभर</w>
+                            <w ctag="NN">ड्राफ्ट</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">रकम</w>
+                            <w ctag="FB">रू.</w>
+                            <w ctag="MM">९२</w>
+                            <w ctag="MM">करोड</w>
+                            <w ctag="VE">भए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="MM">२०४७</w>
+                            <w ctag="NN">फागुन</w>
+                            <w ctag="NN">मसान्त</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NN">सरकार</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="DDM">यस्तो</w>
+                            <w ctag="NN">रकम</w>
+                            <w ctag="RR">पूर्णतः</w>
+                            <w ctag="NN">चुक्ता</w>
+                            <w ctag="VE">गरे</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="CC">र</w>
+                            <w ctag="DDX">यसै</w>
+                            <w ctag="NN">अवधि</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="MM">धेरै</w>
+                            <w ctag="NN">वर्ष</w>
+                            <w ctag="II">पछि</w>
+                            <w ctag="MOM">पहिलो</w>
+                            <w ctag="NN">पटक</w>
+                            <w ctag="NN">राष्ट्र</w>
+                            <w ctag="NN">बैंक</w>
+                            <w ctag="II">सँग</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">सरकार</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">खाता</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="JX">न्यून</w>
+                            <w ctag="VVYN1">होइन</w>
+                            <w ctag="FB">रू.</w>
+                            <w ctag="MM">४४.</w>
+                            <w ctag="MM">४</w>
+                            <w ctag="MM">करोड</w>
+                            <w ctag="NN">बचत</w>
+                            <w ctag="VE">देखिए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="CSA">भन्ने</w>
+                            <w ctag="NN">कुरा</w>
+                            <w ctag="PXH">उहाँ</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="VI">बताउनु</w>
+                            <w ctag="VVYN1">भयो</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="38">
+                            <w ctag="PXH">उहाँ</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="VVYN1">भन्नुभयो</w>
+                            <w ctag="YM">-</w>
+                            <w ctag="JX">गत</w>
+                            <w ctag="NN">वर्ष</w>
+                            <w ctag="JX">निजी</w>
+                            <w ctag="NN">क्षेत्र</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">कृयाकलाप</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NN">र्हास</w>
+                            <w ctag="VE">आए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">फलस्वरुप</w>
+                            <w ctag="NN">कर्जा</w>
+                            <w ctag="NN">प्रवाह</w>
+                            <w ctag="JX">कम</w>
+                            <w ctag="CSA">भएपनि</w>
+                            <w ctag="NN">सरकार</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="JX">बढी</w>
+                            <w ctag="NN">कर्जा</w>
+                            <w ctag="VE">लिए</w>
+                            <w ctag="II">बाट</w>
+                            <w ctag="NN">मुद्रा</w>
+                            <w ctag="NN">प्रदाय</w>
+                            <w ctag="JX">अधिक</w>
+                            <w ctag="NN">विस्तार</w>
+                            <w ctag="VE">भए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">थियो</w>
+                            <w ctag="CSA">भने</w>
+                            <w ctag="DDX">यस</w>
+                            <w ctag="NN">वर्ष</w>
+                            <w ctag="JX">निजी</w>
+                            <w ctag="NN">क्षेत्र</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">कृयाकलाप</w>
+                            <w ctag="VI">बढ्न</w>
+                            <w ctag="VQ">गै</w>
+                            <w ctag="NN">कर्जा</w>
+                            <w ctag="NN">विस्तार</w>
+                            <w ctag="JX">दोब्बर</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="NN">बृद्धि</w>
+                            <w ctag="CSA">भएपनि</w>
+                            <w ctag="JX">सरकारी</w>
+                            <w ctag="NN">क्षेत्र</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="VN">जाने</w>
+                            <w ctag="NN">कर्जा</w>
+                            <w ctag="NN">र्हास</w>
+                            <w ctag="VE">भए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="CC">र</w>
+                            <w ctag="NN">बचत</w>
+                            <w ctag="NN">परिचालन</w>
+                            <w ctag="JX">अधिक</w>
+                            <w ctag="VE">रहे</w>
+                            <w ctag="II">बाट</w>
+                            <w ctag="NN">मुद्रा</w>
+                            <w ctag="NN">प्रदाय</w>
+                            <w ctag="JX">नियन्त्रित</w>
+                            <w ctag="VE">रहे</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                </div>
+            </body>
+            <body>
+                <div type="unspec">
+                    <head>
+                        <s n="39">
+                            <w ctag="NN">इराक-कुवेत</w>
+                            <w ctag="NN">सीमा</w>
+                            <w ctag="II">बाट</w>
+                            <w ctag="NN">सेना</w>
+                            <w ctag="NN">हटाइने</w>
+                        </s>
+                    </head>
+                    <p>
+                        <s n="40">
+                            <w ctag="NN">कुवेत-सिटी</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NN">वैशाख</w>
+                            <w ctag="MM">१९</w>
+                            <w ctag="NN">गते</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                        <s n="41">
+                            <w ctag="NP">अमेरिका</w>
+                            <w ctag="CC">तथा</w>
+                            <w ctag="JX">इराकी</w>
+                            <w ctag="NN">सेना</w>
+                            <w ctag="NN">इराक-कुवेत</w>
+                            <w ctag="NN">सीमा</w>
+                            <w ctag="NN">क्षेत्र</w>
+                            <w ctag="II">बाट</w>
+                            <w ctag="DDX">यही</w>
+                            <w ctag="MM">२५</w>
+                            <w ctag="NN">गतेदेखी</w>
+                            <w ctag="VI">हट्न</w>
+                            <w ctag="NN">शुरू</w>
+                            <w ctag="VN">गर्ने</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="42">
+                            <w ctag="JX">राष्ट्रसंघीय</w>
+                            <w ctag="NN">कमाण्डर</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="JX">राष्ट्रसंघीय</w>
+                            <w ctag="NN">पर्यवेक्षक</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="NN">पूर्णरूप</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NN">काम</w>
+                            <w ctag="NN">शुरू</w>
+                            <w ctag="VE">गरे</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="MM">दुई</w>
+                            <w ctag="NN">दिन</w>
+                            <w ctag="II">पछि</w>
+                            <w ctag="NN">सैनिक</w>
+                            <w ctag="II">रहित</w>
+                            <w ctag="NN">क्षेत्र</w>
+                            <w ctag="II">बाट</w>
+                            <w ctag="NP">अमेरिका</w>
+                            <w ctag="CC">तथा</w>
+                            <w ctag="NP">इराक</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="NN">सेना</w>
+                            <w ctag="VN">हट्ने</w>
+                            <w ctag="NN">कुरा</w>
+                            <w ctag="VVYN1">बताउनुभयो</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="43">
+                            <w ctag="JX">राष्ट्रसंघीय</w>
+                            <w ctag="NN">पर्यवेक्षक</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="MM">२३</w>
+                            <w ctag="NN">गते</w>
+                            <w ctag="II">सम्म</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="JX">सैनिकरहित</w>
+                            <w ctag="NN">क्षेत्र</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NN">पुगिसक्ने</w>
+                            <w ctag="NN">कुरा</w>
+                            <w ctag="JX">राष्ट्रसंघीय</w>
+                            <w ctag="NN">कमाण्डर</w>
+                            <w ctag="VQ">गुन्थेर</w>
+                            <w ctag="NN">ग्रीन्डल</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="VVYN1">बताउनुभयो</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="44">
+                            <w ctag="PXH">उहाँ</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="MM">दुवै</w>
+                            <w ctag="II">तर्फ</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="NN">सेना</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="VE">हटे</w>
+                            <w ctag="II">पछि</w>
+                            <w ctag="JX">सैनिकरहित</w>
+                            <w ctag="NN">क्षेत्र</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">सुपरीवेक्षण</w>
+                            <w ctag="VN">गर्ने</w>
+                            <w ctag="NN">जिम्</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="JX">राष्ट्रसंघीय</w>
+                            <w ctag="NN">पर्यवेक्षक</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VN">रहने</w>
+                            <w ctag="NN">कुरा</w>
+                            <w ctag="VI">बताउनु</w>
+                            <w ctag="VVYN1">भयो</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="45">
+                            <w ctag="JX">राष्ट्रसंघीय</w>
+                            <w ctag="NN">सुरक्षा</w>
+                            <w ctag="NN">परिषद्</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">युद्धविराम</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">घोषणा</w>
+                            <w ctag="VE">भए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">प्रस्ताव</w>
+                            <w ctag="II">अनुरूप</w>
+                            <w ctag="MM">दुईसय</w>
+                            <w ctag="NN">किलोमिटर</w>
+                            <w ctag="JM">लामो</w>
+                            <w ctag="NN">इराक-कुवेत</w>
+                            <w ctag="NN">सीमाक्षेत्र</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="MM">दश</w>
+                            <w ctag="NN">किलोमिटर</w>
+                            <w ctag="NN">चौडाई</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">क्षेत्र</w>
+                            <w ctag="IA">लाई</w>
+                            <w ctag="NN">सैनिक</w>
+                            <w ctag="II">रहित</w>
+                            <w ctag="JX">घोषित</w>
+                            <w ctag="VE">गरिए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="46">
+                            <w ctag="JX">इराकी</w>
+                            <w ctag="NN">अधिकारी</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="JX">राष्ट्रसंघीय</w>
+                            <w ctag="NN">पर्यवेक्षक</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="VE">तोके</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">समय</w>
+                            <w ctag="NN">तालिका</w>
+                            <w ctag="NN">स्वीकार</w>
+                            <w ctag="VE">गरिसके</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">कुरा</w>
+                            <w ctag="VDX">बताउँदै</w>
+                            <w ctag="JX">अमेरिकी</w>
+                            <w ctag="NN">सेना</w>
+                            <w ctag="II">बाट</w>
+                            <w ctag="TT">पनि</w>
+                            <w ctag="DDX">त्यस्तै</w>
+                            <w ctag="NN">स्वीकृति</w>
+                            <w ctag="JX">प्राप्त</w>
+                            <w ctag="VN">हुने</w>
+                            <w ctag="NN">कुरा</w>
+                            <w ctag="JX">राष्ट्रसंघीय</w>
+                            <w ctag="NN">पर्यवेक्षक</w>
+                            <w ctag="NN">कमाण्डर</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="VVYN1">बताउनुभयो</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="47">
+                            <w ctag="NP">इराक</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">साफवान</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="RD">अहिले</w>
+                            <w ctag="TT">पनि</w>
+                            <w ctag="JX">इराकी</w>
+                            <w ctag="NN">शरणार्थी</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">सुरक्षार्थ</w>
+                            <w ctag="MM">पाँच</w>
+                            <w ctag="MM">हजार</w>
+                            <w ctag="JX">अमेरिकी</w>
+                            <w ctag="NN">सैनिक</w>
+                            <w ctag="VE">रहे</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">कुरा</w>
+                            <w ctag="VE">बताइए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="48">
+                            <w ctag="JX">राष्ट्रसंघीय</w>
+                            <w ctag="NN">पर्यवेक्षक</w>
+                            <w ctag="NN">टोली</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="MM">१५</w>
+                            <w ctag="MM">सय</w>
+                            <w ctag="NN">सेना</w>
+                            <w ctag="VVYX2">रहनेछन्</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="49">
+                            <w ctag="RD">यसैगरी</w>
+                            <w ctag="NP">इराक</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="JM">जाखो</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NP">अमेरिका</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NP">बेलायत</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NP">फ्रान्स</w>
+                            <w ctag="CC">एवं</w>
+                            <w ctag="NN">नेदरल्याण्ड</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="NN">सेना</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="NN">कुर्द</w>
+                            <w ctag="NN">शरणार्थी</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="II">लागि</w>
+                            <w ctag="JX">सुरक्षित</w>
+                            <w ctag="NN">क्षेत्र</w>
+                            <w ctag="VN">बढाउने</w>
+                            <w ctag="NN">कार्य</w>
+                            <w ctag="NN">शुरू</w>
+                            <w ctag="VE">गरे</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="VVYX2">छन्</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="50">
+                            <w ctag="JX">बहुराष्ट्रिय</w>
+                            <w ctag="NN">सेना</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="NN">कमाण्डर</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="JX">सुरक्षित</w>
+                            <w ctag="NN">क्षेत्र</w>
+                            <w ctag="NP">इराक</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">अल</w>
+                            <w ctag="NN">अहमादिया</w>
+                            <w ctag="NN">शहर</w>
+                            <w ctag="II">सम्म</w>
+                            <w ctag="VN">पुग्ने</w>
+                            <w ctag="NN">कुरा</w>
+                            <w ctag="VVYX2">बताए</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="51">
+                            <w ctag="DDX">सो</w>
+                            <w ctag="JX">सुरक्षित</w>
+                            <w ctag="NN">क्षेत्र</w>
+                            <w ctag="JM">जाखो</w>
+                            <w ctag="II">बाट</w>
+                            <w ctag="MM">५०</w>
+                            <w ctag="NN">किलोमिटर</w>
+                            <w ctag="NN">उत्तर</w>
+                            <w ctag="II">सम्म</w>
+                            <w ctag="VVYN1">फैलिनेछ</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="52">
+                            <w ctag="JX">बहुराष्ट्रिय</w>
+                            <w ctag="NN">सेना</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="NN">कमाण्डर</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="NN">कुर्द</w>
+                            <w ctag="NN">शरणार्थी</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="IA">लाई</w>
+                            <w ctag="NN">स्थायीरूप</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NN">घर</w>
+                            <w ctag="NN">फर्काइने</w>
+                            <w ctag="NN">कुरा</w>
+                            <w ctag="TT">पनि</w>
+                            <w ctag="VVYX2">बताए</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="53">
+                            <w ctag="RD">यसैगरी</w>
+                            <w ctag="NN">अङ्कारा</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NN">टर्</w>
+                            <w ctag="IKF">की</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="JX">बेलायती</w>
+                            <w ctag="NN">सेना</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="NN">शरणार्थी</w>
+                            <w ctag="NN">शिविर</w>
+                            <w ctag="VI">जान</w>
+                            <w ctag="VE">लागे</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="NN">टर्</w>
+                            <w ctag="TT">की</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="NN">अधिकारी</w>
+                            <w ctag="IA">लाई</w>
+                            <w ctag="NN">बाधा</w>
+                            <w ctag="VE">पुर्याए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NN">आलोचना</w>
+                            <w ctag="VE">गरे</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="54">
+                            <w ctag="NN">टर्</w>
+                            <w ctag="IKF">की</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="NP">बेलायत</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">सेना</w>
+                            <w ctag="IA">लाई</w>
+                            <w ctag="NN">तीनदिन</w>
+                            <w ctag="II">भित्र</w>
+                            <w ctag="NN">टर्</w>
+                            <w ctag="IKF">की</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">भू-भाग</w>
+                            <w ctag="VN">छाड्ने</w>
+                            <w ctag="NN">आदेश</w>
+                            <w ctag="VE">दिए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="55">
+                            <w ctag="NP">बेलायत</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="NN">अधिकारी</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="NN">टर्</w>
+                            <w ctag="IKF">की</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">आरोप</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">अस्वीकार</w>
+                            <w ctag="VE">गरे</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="VVYX2">छन्</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="56">
+                            <w ctag="NN">टर्</w>
+                            <w ctag="IKF">की</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="RD">त्यहाँ</w>
+                            <w ctag="JX">इराकी</w>
+                            <w ctag="NN">कुर्द</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">उद्धार</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="II">लागि</w>
+                            <w ctag="VE">आए</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="JX">बहुराष्ट्रिय</w>
+                            <w ctag="NN">सेना</w>
+                            <w ctag="JX">मानवीय</w>
+                            <w ctag="CC">र</w>
+                            <w ctag="NN">मैत्री</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">आधार</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="VE">आए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">टिप्पणी</w>
+                            <w ctag="VE">गरे</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="MM">एक</w>
+                            <w ctag="NN">हप्ता</w>
+                            <w ctag="II">पछि</w>
+                            <w ctag="DDX">सो</w>
+                            <w ctag="NN">घटना</w>
+                            <w ctag="VE">भए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">हो</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="57">
+                            <w ctag="NP">इराक</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="JX">रासायनिक</w>
+                            <w ctag="NN">हतियार</w>
+                            <w ctag="NN">नष्ट</w>
+                            <w ctag="VI">गर्न</w>
+                            <w ctag="JX">वर्षौं</w>
+                            <w ctag="NN">लाग्नसक्ने</w>
+                            <w ctag="NN">कुरा</w>
+                            <w ctag="VE">बताइए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="58">
+                            <w ctag="NP">इराक</w>
+                            <w ctag="II">संग</w>
+                            <w ctag="JX">रासायनिक</w>
+                            <w ctag="CC">एवं</w>
+                            <w ctag="JX">जैविक</w>
+                            <w ctag="NN">हतियार</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">भण्डार</w>
+                            <w ctag="RR">निकै</w>
+                            <w ctag="JM">ठूलो</w>
+                            <w ctag="VE">भए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="MM">धेरै</w>
+                            <w ctag="NN">समय</w>
+                            <w ctag="VN">लाग्ने</w>
+                            <w ctag="NN">कुरा</w>
+                            <w ctag="VE">बताइए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">हो</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                </div>
+            </body>
+            <body>
+                <div type="unspec">
+                    <head>
+                        <s n="59">
+                            <w ctag="NN">कुर्द</w>
+                            <w ctag="NN">शरणार्थी</w>
+                            <w ctag="NN">शिविर</w>
+                            <w ctag="IA">लाई</w>
+                            <w ctag="NN">राष्ट्र</w>
+                            <w ctag="NN">संघ</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="PRFKM">आफ्नो</w>
+                            <w ctag="NN">नियन्त्रण</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="VN">लिने</w>
+                        </s>
+                    </head>
+                    <head>
+                        <s n="60">
+                            <w ctag="NP">फ्रान्स</w>
+                            <w ctag="II">द्वारा</w>
+                            <w ctag="NN">सुरक्षा</w>
+                            <w ctag="NN">परिषद्</w>
+                            <w ctag="NN">बैठक</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">माग</w>
+                        </s>
+                    </head>
+                    <p>
+                        <s n="61">
+                            <w ctag="NP">न्युयोर्क</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NN">बैशाख</w>
+                            <w ctag="MM">१४</w>
+                            <w ctag="NN">गते</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                        <s n="62">
+                            <w ctag="JX">संयुक्त</w>
+                            <w ctag="NN">राष्ट्रसंघ</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="NN">महासचिव</w>
+                            <w ctag="NP">हाभियर</w>
+                            <w ctag="NP">पेरेज</w>
+                            <w ctag="NP">द</w>
+                            <w ctag="NP">कोय्यार</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="JX">उत्तरी</w>
+                            <w ctag="NP">इराक</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NP">अमेरिका</w>
+                            <w ctag="CC">तथा</w>
+                            <w ctag="JX">सम्बद्ध</w>
+                            <w ctag="NN">राष्ट्र</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="II">द्वारा</w>
+                            <w ctag="JX">स्थापित</w>
+                            <w ctag="NN">शरणार्थी</w>
+                            <w ctag="NN">शिविर</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="IA">लाई</w>
+                            <w ctag="NN">राष्ट्रसंघ</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="RR">यथाशीघ्र</w>
+                            <w ctag="NN">नियन्त्रण</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="VN">लिने</w>
+                            <w ctag="NN">कुरा</w>
+                            <w ctag="VE">बताउनुभए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="63">
+                            <w ctag="NN">राष्ट्रसंघ</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="NN">महासचिव</w>
+                            <w ctag="NP">कोय्यार</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="NN">शरणार्थी</w>
+                            <w ctag="NN">शिविर</w>
+                            <w ctag="JX">राष्ट्रसंघीय</w>
+                            <w ctag="NN">नियन्त्रण</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="VI">आउन</w>
+                            <w ctag="MM">केही</w>
+                            <w ctag="NN">दिन</w>
+                            <w ctag="TT">मात्र</w>
+                            <w ctag="VN">लाग्ने</w>
+                            <w ctag="NN">कुरा</w>
+                            <w ctag="NN">उल्लेख</w>
+                            <w ctag="VVYN1">गर्नुभयो</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="64">
+                            <w ctag="DDX">यसै</w>
+                            <w ctag="NN">बीच</w>
+                            <w ctag="NP">फ्रान्स</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="JX">इराकी</w>
+                            <w ctag="NN">सरकार</w>
+                            <w ctag="CC">तथा</w>
+                            <w ctag="NN">कुर्द</w>
+                            <w ctag="JX">विद्रोही</w>
+                            <w ctag="NN">नेता</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="II">बीच</w>
+                            <w ctag="DDX">यसै</w>
+                            <w ctag="NN">हप्ता</w>
+                            <w ctag="JX">सम्पन्न</w>
+                            <w ctag="NN">वार्ता</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">परिप्रेक्ष्य</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NP">इराक</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">स्थिति</w>
+                            <w ctag="II">बारे</w>
+                            <w ctag="NN">मूल्यांकन</w>
+                            <w ctag="VI">गर्न</w>
+                            <w ctag="JX">राष्ट्रसंघीय</w>
+                            <w ctag="NN">सुरक्षा</w>
+                            <w ctag="NN">परिषद्</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">बैठक</w>
+                            <w ctag="VI">बोलाउनु</w>
+                            <w ctag="VN">पर्ने</w>
+                            <w ctag="NN">माग</w>
+                            <w ctag="VE">गरे</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="65">
+                            <w ctag="NP">फ्रान्स</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">विदेश</w>
+                            <w ctag="NN">मन्त्रालय</w>
+                            <w ctag="II">द्वारा</w>
+                            <w ctag="NN">आज</w>
+                            <w ctag="JX">प्रसारित</w>
+                            <w ctag="NN">वक्तव्य</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NP">इराक</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="JX">पछिल्लो</w>
+                            <w ctag="NN">स्थिति</w>
+                            <w ctag="IA">लाई</w>
+                            <w ctag="NN">ध्यान</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="VQ">राखेर</w>
+                            <w ctag="NP">अमेरिका</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NP">सोभियत</w>
+                            <w ctag="NN">संघ</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NP">चीन</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NP">फ्रान्स</w>
+                            <w ctag="CC">तथा</w>
+                            <w ctag="NP">बेलायत</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">बैठक</w>
+                            <w ctag="NN">आयोजना</w>
+                            <w ctag="VI">गरिनु</w>
+                            <w ctag="VN">पर्ने</w>
+                            <w ctag="NN">आवश्यकता</w>
+                            <w ctag="VE">औंल्याइए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="66">
+                            <w ctag="NP">बगदाद</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="JX">इराकी</w>
+                            <w ctag="NN">सरकार</w>
+                            <w ctag="II">सँग</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">वार्ता</w>
+                            <w ctag="II">पछि</w>
+                            <w ctag="NN">कुर्द</w>
+                            <w ctag="JX">विद्रोही</w>
+                            <w ctag="NN">नेता</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="NP">इराक</w>
+                            <w ctag="NN">सरकार</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="JX">उत्तरी</w>
+                            <w ctag="NP">इराक</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NN">कुर्द</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="IA">लाई</w>
+                            <w ctag="NN">स्वायत्तता</w>
+                            <w ctag="NN">प्रदान</w>
+                            <w ctag="VI">गर्न</w>
+                            <w ctag="RR">सिद्धान्ततः</w>
+                            <w ctag="NN">सहमति</w>
+                            <w ctag="VE">जनाए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">कुरा</w>
+                            <w ctag="VE">बताए</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="VVYX2">छन्</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                        <s n="67">
+                            <w ctag="NP">अमेरिका</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NP">फ्रान्स</w>
+                            <w ctag="CC">र</w>
+                            <w ctag="NP">बेलायत</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="DDX">त्यस</w>
+                            <w ctag="NN">क्षेत्र</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NN">कुर्द</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="IA">लाई</w>
+                            <w ctag="NN">उद्धार</w>
+                            <w ctag="NN">सामग्री</w>
+                            <w ctag="JX">उपलब्ध</w>
+                            <w ctag="NN">गराइरहे</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="TT">पनि</w>
+                            <w ctag="NN">समाचार</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NN">उल्लेख</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="68">
+                            <w ctag="DDX">यसै</w>
+                            <w ctag="II">बीच</w>
+                            <w ctag="JX">इराकी</w>
+                            <w ctag="NN">उपप्रधानमन्त्री</w>
+                            <w ctag="JX">तारिक</w>
+                            <w ctag="NN">अजीज</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="NP">अमेरिका</w>
+                            <w ctag="CC">तथा</w>
+                            <w ctag="JX">सम्बद्ध</w>
+                            <w ctag="NN">राष्ट्र</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="II">द्वारा</w>
+                            <w ctag="NN">कुर्द</w>
+                            <w ctag="NN">शरणार्थी</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">नाम</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NP">इराक</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="JX">आन्तरिक</w>
+                            <w ctag="NN">मामला</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NN">हस्तक्षेप</w>
+                            <w ctag="VN">गर्ने</w>
+                            <w ctag="NN">कार्य</w>
+                            <w ctag="RR">तत्काल</w>
+                            <w ctag="VI">रोकिनु</w>
+                            <w ctag="VN">पर्ने</w>
+                            <w ctag="NN">माग</w>
+                            <w ctag="VE">गर्नुभए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="69">
+                            <w ctag="DDX">यसै</w>
+                            <w ctag="NN">बीच</w>
+                            <w ctag="NN">कुर्द</w>
+                            <w ctag="NN">शरणार्थी</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="MOM">पहिलो</w>
+                            <w ctag="NN">डफ्फा</w>
+                            <w ctag="JX">उत्तरी</w>
+                            <w ctag="NP">इराक</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="JM">जाखो</w>
+                            <w ctag="JX">शहरस्थित</w>
+                            <w ctag="JX">तयार</w>
+                            <w ctag="VI">हुन</w>
+                            <w ctag="VE">लागे</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">शरणार्थी</w>
+                            <w ctag="NN">शिविर</w>
+                            <w ctag="II">तर्फ</w>
+                            <w ctag="VI">फर्कन</w>
+                            <w ctag="VE">थाले</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="NN">कुरा</w>
+                            <w ctag="MM">एक</w>
+                            <w ctag="JX">अमेरिकी</w>
+                            <w ctag="NN">सैनिक</w>
+                            <w ctag="NP">अधिकारी</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="NN">आज</w>
+                            <w ctag="VE">जनाए</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="VVYX2">छन्</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="70">
+                            <w ctag="NP">इराक</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="NN">शरणार्थी</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="IA">लाई</w>
+                            <w ctag="NN">सहयोग</w>
+                            <w ctag="VE">पुर्याइरहे</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="JX">अमेरिकी</w>
+                            <w ctag="NN">सेना</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="NN">प्रवक्ता</w>
+                            <w ctag="NN">लेफ्टिनेंट</w>
+                            <w ctag="NN">कर्नल</w>
+                            <w ctag="NP">फिलिप</w>
+                            <w ctag="JM">क्रो</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="JM">जाखो</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">शरणार्थी</w>
+                            <w ctag="NN">शिविर</w>
+                            <w ctag="RR">अझ</w>
+                            <w ctag="TT">पनि</w>
+                            <w ctag="MM">धेरै</w>
+                            <w ctag="NN">संख्या</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NN">शरणार्थी</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="VN">अटाउने</w>
+                            <w ctag="NN">किसिम</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="JX">तयार</w>
+                            <w ctag="VI">हुन</w>
+                            <w ctag="VE">नसके</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="NN">हाल</w>
+                            <w ctag="NN">शरणार्थी</w>
+                            <w ctag="NN">आगमन</w>
+                            <w ctag="NN">क्रम</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NN">तीब्रता</w>
+                            <w ctag="VN">नआउने</w>
+                            <w ctag="NN">अपेक्षा</w>
+                            <w ctag="NN">अधिकारी</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="VE">गरे</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="VVYX2">छन्</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="71">
+                            <w ctag="NN">सैनिक</w>
+                            <w ctag="NN">अधिकारी</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="DDX">यस</w>
+                            <w ctag="NN">साताभरी</w>
+                            <w ctag="JX">आधिकारीक</w>
+                            <w ctag="NN">कुर्द</w>
+                            <w ctag="NN">नेता</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="IA">लाई</w>
+                            <w ctag="VQ">ल्याएर</w>
+                            <w ctag="NN">शिविर</w>
+                            <w ctag="NN">निरीक्षण</w>
+                            <w ctag="VN">गराउने</w>
+                            <w ctag="DDX">त्यस</w>
+                            <w ctag="II">पछि</w>
+                            <w ctag="JX">बढी</w>
+                            <w ctag="NN">शरणार्थी</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="IA">लाई</w>
+                            <w ctag="VI">भित्र्याउन</w>
+                            <w ctag="NN">अनुरोध</w>
+                            <w ctag="VN">गर्ने</w>
+                            <w ctag="NN">कुरा</w>
+                            <w ctag="VE">जनाए</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="VVYX2">छन्</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="72">
+                            <w ctag="RD">त्यहाँ</w>
+                            <w ctag="NN">खानेपानी</w>
+                            <w ctag="NN">वितरण</w>
+                            <w ctag="CC">तथा</w>
+                            <w ctag="NN">लालटिन</w>
+                            <w ctag="RR">आदि</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">व्यवस्था</w>
+                            <w ctag="VI">मिलाउन</w>
+                            <w ctag="TT">पनि</w>
+                            <w ctag="MM">केही</w>
+                            <w ctag="NN">दिन</w>
+                            <w ctag="VN">लाग्ने</w>
+                            <w ctag="NN">कुरा</w>
+                            <w ctag="VE">जनाए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="73">
+                            <w ctag="JX">राष्ट्रसंघीय</w>
+                            <w ctag="NN">अधिकारी</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="NP">इरान</w>
+                            <w ctag="NP">पसिरहे</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="MM">हजारौं</w>
+                            <w ctag="JX">इराकी</w>
+                            <w ctag="NN">शरणार्थी</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="II">मध्ये</w>
+                            <w ctag="NN">प्रतिदिन</w>
+                            <w ctag="NN">दुईहजार</w>
+                            <w ctag="DJX">जति</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">ज्यान</w>
+                            <w ctag="VE">गइरहे</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">कुरा</w>
+                            <w ctag="NN">हिजो</w>
+                            <w ctag="NN">तेहरान</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="VE">जनाए</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="VVYX2">थिए</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="74">
+                            <w ctag="RD">उता</w>
+                            <w ctag="NN">इरानी</w>
+                            <w ctag="NN">अधिकारी</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="MM">१०</w>
+                            <w ctag="MM">लाख</w>
+                            <w ctag="II">भन्दा</w>
+                            <w ctag="TT">पनि</w>
+                            <w ctag="JX">बढी</w>
+                            <w ctag="NN">कुर्द</w>
+                            <w ctag="CC">तथा</w>
+                            <w ctag="NN">शिया</w>
+                            <w ctag="NN">शरणार्थी</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="NP">इरान</w>
+                            <w ctag="VE">पसे</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">दावी</w>
+                            <w ctag="VE">गरे</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="VVYX2">छन्</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="75">
+                            <w ctag="DGM">अर्को</w>
+                            <w ctag="II">तिर</w>
+                            <w ctag="JX">इराकी</w>
+                            <w ctag="NN">राष्ट्रपति</w>
+                            <w ctag="NP">सद्दाम</w>
+                            <w ctag="NP">हुसेन</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="PRF">आफू</w>
+                            <w ctag="II">माथि</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VDM">बढ्दो</w>
+                            <w ctag="NN">दवाव</w>
+                            <w ctag="IA">लाई</w>
+                            <w ctag="NN">दृष्टिगत</w>
+                            <w ctag="VDX">गर्दै</w>
+                            <w ctag="PRFKM">आफ्नो</w>
+                            <w ctag="NN">शासन</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="MM">केही</w>
+                            <w ctag="NN">नीति</w>
+                            <w ctag="IA">लाई</w>
+                            <w ctag="JX">खुकुलो</w>
+                            <w ctag="VN">पार्ने</w>
+                            <w ctag="NN">क्रम</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="JX">इराकी</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="II">माथि</w>
+                            <w ctag="NN">विदेश</w>
+                            <w ctag="NN">भ्रमण</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="VE">लगाइए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">प्रतिवन्ध</w>
+                            <w ctag="VI">हटाउनु</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="II">साथै</w>
+                            <w ctag="JX">बाथपार्टी</w>
+                            <w ctag="NN">मिलिसिया</w>
+                            <w ctag="NN">भंग</w>
+                            <w ctag="VI">गर्नु</w>
+                            <w ctag="VE">भए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                </div>
+            </body>
+            <body>
+                <div type="unspec">
+                    <head>
+                        <s n="76">
+                            <w ctag="JX">सही</w>
+                            <w ctag="NN">प्रजातन्त्र</w>
+                            <w ctag="JX">प्राप्त</w>
+                            <w ctag="VI">गर्न</w>
+                            <w ctag="NN">देश</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="JX">आर्थिक</w>
+                            <w ctag="NN">अवस्था</w>
+                            <w ctag="VI">सुधार्नु</w>
+                            <w ctag="JX">आवश्यक</w>
+                        </s>
+                    </head>
+                    <p>
+                        <s n="77">
+                            <w ctag="NP">इटहरी</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NN">बैशाख</w>
+                            <w ctag="MM">१४</w>
+                            <w ctag="NN">गते</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                        <s n="78">
+                            <w ctag="NP">नेपाल</w>
+                            <w ctag="NN">कम्युनिष्ट</w>
+                            <w ctag="NN">पार्टी</w>
+                            <w ctag="YB">(</w>
+                            <w ctag="NN">एमाले</w>
+                            <w ctag="YB">)</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="NN">अध्यक्ष</w>
+                            <w ctag="NP">मनमोहन</w>
+                            <w ctag="NP">अधिकारी</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="RD">अब</w>
+                            <w ctag="NN">देश</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="NN">मालिक</w>
+                            <w ctag="NN">जनता</w>
+                            <w ctag="VE">भए</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="VVYX2">छन्</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NN">प्रजातन्त्र</w>
+                            <w ctag="IA">लाई</w>
+                            <w ctag="JX">संस्थागत</w>
+                            <w ctag="VN">गर्ने</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NN">सुदृढीकरण</w>
+                            <w ctag="VN">गर्ने</w>
+                            <w ctag="CC">र</w>
+                            <w ctag="NN">राष्ट्रियता</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">सुरक्षा</w>
+                            <w ctag="VI">गर्न</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="II">खातिर</w>
+                            <w ctag="PRFKM">आफ्नो</w>
+                            <w ctag="NN">पार्टी</w>
+                            <w ctag="JX">चुनावी</w>
+                            <w ctag="NN">मैदान</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="VE">उत्रे</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">हो</w>
+                            <w ctag="VE">भन्नुभए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="79">
+                            <w ctag="PXH">उहाँ</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="NP">धरान</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NN">हिजो</w>
+                            <w ctag="JX">आयोजित</w>
+                            <w ctag="NN">र्याली</w>
+                            <w ctag="II">पछि</w>
+                            <w ctag="NN">पब्लिक</w>
+                            <w ctag="JX">माध्यमिक</w>
+                            <w ctag="NN">विद्यालय</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">प्रांगण</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="VE">भए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">सभा</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="DDX">उक्त</w>
+                            <w ctag="NN">कुरा</w>
+                            <w ctag="VE">बताउनुभए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">हो</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="80">
+                            <w ctag="JX">आर्थिक</w>
+                            <w ctag="NN">हिसाव</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="NN">देश</w>
+                            <w ctag="JX">जर्जर</w>
+                            <w ctag="VE">भए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="VDX">भन्दै</w>
+                            <w ctag="NN">अध्यक्ष</w>
+                            <w ctag="NN">श्री</w>
+                            <w ctag="NP">अधिकारी</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="JX">आर्थिक</w>
+                            <w ctag="NN">अवस्था</w>
+                            <w ctag="VE">नसुध्रिए</w>
+                            <w ctag="II">सम्म</w>
+                            <w ctag="NN">देश</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="JX">सही</w>
+                            <w ctag="NN">प्रजातन्त्र</w>
+                            <w ctag="VVYN1">आउँदैन</w>
+                            <w ctag="VVYN1">भन्नुभयो</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="81">
+                            <w ctag="NP">धरान</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="DDX">सोही</w>
+                            <w ctag="NN">ठाउँ</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="RR">हालै</w>
+                            <w ctag="VE">भए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">सभा</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="MM">एक</w>
+                            <w ctag="MLX">जना</w>
+                            <w ctag="NN">वक्ता</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="NN">प्रजातन्त्र</w>
+                            <w ctag="PMX">मै</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="VVMX1">दिएँ</w>
+                            <w ctag="VE">भने</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NN">आश्चर्य</w>
+                            <w ctag="NN">व्यक्त</w>
+                            <w ctag="VDX">गर्दै</w>
+                            <w ctag="NN">श्री</w>
+                            <w ctag="NP">अधिकारी</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="NN">प्रजातन्त्र</w>
+                            <w ctag="JX">नेपाली</w>
+                            <w ctag="NN">जनता</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="VE">ल्याए</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="VVYX2">हुन्</w>
+                            <w ctag="DKX">कसै</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="VE">दिए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">होइन</w>
+                            <w ctag="VVYN1">भन्नुभयो</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="82">
+                            <w ctag="NN">एमाले</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="NN">पोलिटव्यूरो</w>
+                            <w ctag="NN">सदस्य</w>
+                            <w ctag="NN">चन्द्रप्रकाश</w>
+                            <w ctag="NP">मैनाली</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="NN">शहीद</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">बलिदान</w>
+                            <w ctag="II">बाट</w>
+                            <w ctag="VE">आए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">प्रजातन्त्र</w>
+                            <w ctag="CC">र</w>
+                            <w ctag="NN">देश</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">गौरव</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">रक्षा</w>
+                            <w ctag="VI">गर्न</w>
+                            <w ctag="JX">नेपाली</w>
+                            <w ctag="NN">जनता</w>
+                            <w ctag="VE">जागे</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="VVYX2">छन्</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                        <s n="83">
+                            <w ctag="NN">जनता</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">मुख</w>
+                            <w ctag="VQ">बाँधेर</w>
+                            <w ctag="NN">देश</w>
+                            <w ctag="NN">विकास</w>
+                            <w ctag="VVYN1">हुँदैन</w>
+                            <w ctag="CSA">भन्ने</w>
+                            <w ctag="NN">कुरा</w>
+                            <w ctag="NN">विगत</w>
+                            <w ctag="MM">३०</w>
+                            <w ctag="NN">बर्ष</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="JX">प्रमाणित</w>
+                            <w ctag="VE">गरिसके</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="VVYN1">भन्नुभयो</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="84">
+                            <w ctag="DDX">सोही</w>
+                            <w ctag="NN">पार्टी</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">पोलिटव्यूरो</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="DGO">अर्का</w>
+                            <w ctag="NN">सदस्य</w>
+                            <w ctag="NP">माधवकुमार</w>
+                            <w ctag="NP">नेपाल</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="PMXKM">हाम्रो</w>
+                            <w ctag="NN">पार्टी</w>
+                            <w ctag="NN">राष्ट्रियता</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="II">लागि</w>
+                            <w ctag="VI">मरिमेट्न</w>
+                            <w ctag="JX">तयार</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NN">जनता</w>
+                            <w ctag="JX">निर्णायक</w>
+                            <w ctag="NN">शक्ति</w>
+                            <w ctag="VVYN1">हो</w>
+                            <w ctag="CC">र</w>
+                            <w ctag="NN">जनता</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="JX">सार्वभौमिक</w>
+                            <w ctag="NN">शक्ति</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">उपयोग</w>
+                            <w ctag="VOYX2">गरून्</w>
+                            <w ctag="CSA">भन्ने</w>
+                            <w ctag="PMXKM">हाम्रो</w>
+                            <w ctag="NN">प्रयास</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NN">प्रजातन्त्र</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NN">राष्ट्रियता</w>
+                            <w ctag="CC">र</w>
+                            <w ctag="NN">जनता</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="NN">हित</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="II">लागि</w>
+                            <w ctag="PMX">हामी</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="TT">के</w>
+                            <w ctag="VVMX2">गर्यौं</w>
+                            <w ctag="CSA">भन्ने</w>
+                            <w ctag="NN">कुरा</w>
+                            <w ctag="NN">जनता</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="II">सामुन्ने</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="VVYN1">भन्नुभयो</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="85">
+                            <w ctag="JX">केन्द्रीय</w>
+                            <w ctag="NN">पार्षद</w>
+                            <w ctag="NP">भवानी</w>
+                            <w ctag="NP">घिमिरे</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="JX">सबै</w>
+                            <w ctag="NN">जाति</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="NN">विकास</w>
+                            <w ctag="VI">गर्न</w>
+                            <w ctag="VVYN1">पाउनुपर्छ</w>
+                            <w ctag="CSA">भन्ने</w>
+                            <w ctag="NN">एमाले</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="NN">धारणा</w>
+                            <w ctag="VE">राखे</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VDX">बताउँदै</w>
+                            <w ctag="JX">नेपाली</w>
+                            <w ctag="NN">जनता</w>
+                            <w ctag="IA">लाई</w>
+                            <w ctag="JX">समग्र</w>
+                            <w ctag="NN">उन्नति</w>
+                            <w ctag="CC">र</w>
+                            <w ctag="NN">परिवर्तन</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="JX">आवश्यक</w>
+                            <w ctag="VE">भए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">कुरा</w>
+                            <w ctag="VVYN1">बताउनुभयो</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="86">
+                            <w ctag="DGO">अर्का</w>
+                            <w ctag="NN">पार्षद</w>
+                            <w ctag="NP">रामप्रसाद</w>
+                            <w ctag="NP">खनाल</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="JX">प्रतिगामी</w>
+                            <w ctag="NN">तत्व</w>
+                            <w ctag="II">बाट</w>
+                            <w ctag="NN">होशियार</w>
+                            <w ctag="VQ">रही</w>
+                            <w ctag="NN">प्रजातन्त्र</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">रक्षा</w>
+                            <w ctag="VI">गर्न</w>
+                            <w ctag="JX">सबै</w>
+                            <w ctag="II">सँग</w>
+                            <w ctag="NN">आग्रह</w>
+                            <w ctag="VVYN1">गर्नुभयो</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="87">
+                            <w ctag="DDX">सो</w>
+                            <w ctag="NN">सभा</w>
+                            <w ctag="NN">अकलबहादुर</w>
+                            <w ctag="JM">मेयाङवो</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">सभापतित्व</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="VE">भए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">थियो</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="88">
+                            <w ctag="RD">यसैगरी</w>
+                            <w ctag="NP">नेपाल</w>
+                            <w ctag="NN">मजदूर</w>
+                            <w ctag="NN">किसान</w>
+                            <w ctag="NN">पार्टी</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="NN">अध्यक्ष</w>
+                            <w ctag="NP">नारायणमान</w>
+                            <w ctag="NP">बिजुक्छे</w>
+                            <w ctag="YB">(</w>
+                            <w ctag="NP">रोहित</w>
+                            <w ctag="YB">)</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="PRFKO">आफ्ना</w>
+                            <w ctag="NN">पार्टी</w>
+                            <w ctag="NN">जहि</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="TT">पनि</w>
+                            <w ctag="NN">मजदूर</w>
+                            <w ctag="CC">र</w>
+                            <w ctag="NN">किसान</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">हक</w>
+                            <w ctag="CC">र</w>
+                            <w ctag="NN">हित</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="II">लागि</w>
+                            <w ctag="JX">संघर्षरत</w>
+                            <w ctag="VDX">रहदै</w>
+                            <w ctag="VE">आए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="CC">र</w>
+                            <w ctag="JX">आगामी</w>
+                            <w ctag="NN">दिन</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="TT">पनि</w>
+                            <w ctag="JX">संघर्षरत</w>
+                            <w ctag="TT">नै</w>
+                            <w ctag="VN">रहने</w>
+                            <w ctag="NN">दृढता</w>
+                            <w ctag="NN">व्यक्त</w>
+                            <w ctag="VVYN1">गर्नुभयो</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="89">
+                            <w ctag="DDX">उक्त</w>
+                            <w ctag="NN">कुरा</w>
+                            <w ctag="PXH">उहाँ</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="NN">हिजो</w>
+                            <w ctag="JX">कीर्तिपुरस्थित</w>
+                            <w ctag="NN">मंगल</w>
+                            <w ctag="JX">माध्यमिक</w>
+                            <w ctag="NN">विद्यालय</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">प्रांगण</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="JX">आयोजित</w>
+                            <w ctag="NN">आमसभा</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NN">व्यक्त</w>
+                            <w ctag="VE">गर्नुभए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">हो</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                </div>
+            </body>
+            <body>
+                <div type="unspec">
+                    <head>
+                        <s n="90">
+                            <w ctag="NN">चुनाव</w>
+                            <w ctag="NN">प्रचार</w>
+                            <w ctag="NN">प्रसार</w>
+                            <w ctag="NN">कार्य</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NN">तीब्रता</w>
+                        </s>
+                    </head>
+                    <p>
+                        <s n="91">
+                            <w ctag="NP">राजविराज</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NN">वैशाख</w>
+                            <w ctag="MM">१४</w>
+                            <w ctag="NN">गते</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                        <s n="92">
+                            <w ctag="NN">जिल्ला</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="MM">पांच</w>
+                            <w ctag="MLX">ओटै</w>
+                            <w ctag="NN">निर्वाचन</w>
+                            <w ctag="NN">क्षेत्र</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="JX">चुनावी</w>
+                            <w ctag="NN">चहल</w>
+                            <w ctag="NN">पहल</w>
+                            <w ctag="NN">चरमोत्कर्ष</w>
+                            <w ctag="NN">अवस्था</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="VE">पुगे</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VE">पाइए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="93">
+                            <w ctag="JX">नेपाली</w>
+                            <w ctag="NN">कांग्रेस</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NP">नेपाल</w>
+                            <w ctag="NN">कम्युनिष्ट</w>
+                            <w ctag="NN">पार्टी</w>
+                            <w ctag="YB">(</w>
+                            <w ctag="NN">एमाले</w>
+                            <w ctag="YB">)</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NP">नेपाल</w>
+                            <w ctag="NN">कम्युनिष्ट</w>
+                            <w ctag="NN">पार्टी</w>
+                            <w ctag="YB">(</w>
+                            <w ctag="NN">प्रजातन्त्रवादी</w>
+                            <w ctag="YB">)</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NP">नेपाल</w>
+                            <w ctag="NN">कम्युनिष्ट</w>
+                            <w ctag="NN">पार्टी</w>
+                            <w ctag="YB">(</w>
+                            <w ctag="NP">वर्मा</w>
+                            <w ctag="YB">)</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="JX">राष्ट्रिय</w>
+                            <w ctag="NN">प्रजातन्त्र</w>
+                            <w ctag="NN">पार्टी</w>
+                            <w ctag="YB">(</w>
+                            <w ctag="NP">थापा</w>
+                            <w ctag="YB">)</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="JX">राष्ट्रिय</w>
+                            <w ctag="NN">प्रजातन्त्र</w>
+                            <w ctag="NN">पार्टी</w>
+                            <w ctag="YB">(</w>
+                            <w ctag="NP">चन्द</w>
+                            <w ctag="YB">)</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NP">नेपाल</w>
+                            <w ctag="NN">सद्भावना</w>
+                            <w ctag="NN">पार्टी</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="JX">जनवादी</w>
+                            <w ctag="NN">मोर्चा</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="NN">उम्मेदवार</w>
+                            <w ctag="CC">तथा</w>
+                            <w ctag="JX">स्वतन्त्र</w>
+                            <w ctag="NN">उम्मेदवार</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="PRFKM">आ-आफ्नो</w>
+                            <w ctag="JX">चुनावी</w>
+                            <w ctag="NN">घोषणा</w>
+                            <w ctag="NN">पत्र</w>
+                            <w ctag="CC">र</w>
+                            <w ctag="NN">चुनाव</w>
+                            <w ctag="NN">चिन्ह</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="JX">तीब्र</w>
+                            <w ctag="NN">गति</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NN">प्रचार</w>
+                            <w ctag="NN">प्रसार</w>
+                            <w ctag="VE">गरिरहे</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="VVYX2">छन्</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="94">
+                            <w ctag="NN">चुनाव</w>
+                            <w ctag="NN">अभियान</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">क्रम</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NN">उम्मेदवार</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="PRFKO">आ-आफ्ना</w>
+                            <w ctag="NN">निर्वाचन</w>
+                            <w ctag="NN">क्षेत्र</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="NN">गाउं</w>
+                            <w ctag="NN">विकास</w>
+                            <w ctag="NN">समिति</w>
+                            <w ctag="CC">र</w>
+                            <w ctag="NN">नगर</w>
+                            <w ctag="NN">क्षेत्र</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="NN">गाउं</w>
+                            <w ctag="NN">टोल</w>
+                            <w ctag="CC">र</w>
+                            <w ctag="NN">घरघर</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="VQ">गई</w>
+                            <w ctag="NN">मत</w>
+                            <w ctag="VDX">माग्दै</w>
+                            <w ctag="VE">हिंडे</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">देखिन्छ</w>
+                            <w ctag="CSA">भने</w>
+                            <w ctag="JX">अधिकांश</w>
+                            <w ctag="NN">उम्मेदवार</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="NN">आमसभा</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NN">कोण</w>
+                            <w ctag="NN">सभा</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">आयोजना</w>
+                            <w ctag="VQ">गरी</w>
+                            <w ctag="PRF">आफू</w>
+                            <w ctag="JX">विजयी</w>
+                            <w ctag="VE">भए</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NN">गाउं</w>
+                            <w ctag="NN">घर</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">विकास</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="II">लागि</w>
+                            <w ctag="VN">गर्ने</w>
+                            <w ctag="NN">काम</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="II">वारे</w>
+                            <w ctag="NN">प्रकाश</w>
+                            <w ctag="VVYX2">पार्दैछन्</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="95">
+                            <w ctag="JX">विभिन्न</w>
+                            <w ctag="NN">पार्टी</w>
+                            <w ctag="CC">र</w>
+                            <w ctag="NN">उम्मेदवार</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="NN">कार्यकर्ता</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="NN">चुनाव</w>
+                            <w ctag="NN">प्रचार</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">क्रम</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NN">साइकल</w>
+                            <w ctag="NN">र्याली</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">आयोजना</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="II">साथसाथै</w>
+                            <w ctag="NN">जीप</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NN">ट्रयाक्टर</w>
+                            <w ctag="CC">र</w>
+                            <w ctag="NN">रिक्सा</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="PRFKO">आफ्ना</w>
+                            <w ctag="NN">ब्यानर</w>
+                            <w ctag="NN">झुण्ड्याई</w>
+                            <w ctag="NN">प्रचार</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">कार्य</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NN">दौडिरहे</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">देखिन्छ</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="96">
+                            <w ctag="NN">मतदाता</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="IA">लाई</w>
+                            <w ctag="PRF">आफू</w>
+                            <w ctag="II">प्रति</w>
+                            <w ctag="JX">आकर्षित</w>
+                            <w ctag="VI">पार्न</w>
+                            <w ctag="DKX">कतिपय</w>
+                            <w ctag="NN">पार्टी</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="NN">ठाउं</w>
+                            <w ctag="NN">ठाउं</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="JX">गीति</w>
+                            <w ctag="CC">र</w>
+                            <w ctag="JX">सांस्कृतिक</w>
+                            <w ctag="NN">कार्यक्रम</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">आयोजना</w>
+                            <w ctag="TT">पनि</w>
+                            <w ctag="VE">गरिरहे</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="VVYX2">छन्</w>
+                            <w ctag="CSA">भने</w>
+                            <w ctag="JX">नेपाली</w>
+                            <w ctag="NN">कांग्रेस</w>
+                            <w ctag="CC">र</w>
+                            <w ctag="NP">नेपाल</w>
+                            <w ctag="NN">कम्युनिष्ट</w>
+                            <w ctag="NN">पार्टी</w>
+                            <w ctag="YB">(</w>
+                            <w ctag="NN">एमाले</w>
+                            <w ctag="YB">)</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">घोषणा</w>
+                            <w ctag="NN">पत्र</w>
+                            <w ctag="NN">टेप</w>
+                            <w ctag="II">बाट</w>
+                            <w ctag="NN">नगरवासी</w>
+                            <w ctag="CC">एवं</w>
+                            <w ctag="NN">गाउँवासी</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="IA">लाई</w>
+                            <w ctag="VN">सुनाउने</w>
+                            <w ctag="NN">क्रम</w>
+                            <w ctag="TT">पनि</w>
+                            <w ctag="NN">जारी</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="97">
+                            <w ctag="NN">जिल्ला</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="RR">प्रायः</w>
+                            <w ctag="JX">सबैजसो</w>
+                            <w ctag="NN">निर्वाचन</w>
+                            <w ctag="NN">क्षेत्र</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="NN">घर</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NN">पर्खाल</w>
+                            <w ctag="CC">एवं</w>
+                            <w ctag="DGX">अन्य</w>
+                            <w ctag="JX">सार्वजनिक</w>
+                            <w ctag="NN">स्थल</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="JX">विभिन्न</w>
+                            <w ctag="NN">उम्मेदवार</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">चुनाव</w>
+                            <w ctag="NN">चिन्ह</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NN">पार्टी</w>
+                            <w ctag="NN">झण्डा</w>
+                            <w ctag="II">लगायत</w>
+                            <w ctag="JX">विभिन्न</w>
+                            <w ctag="NN">पोष्टर</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NN">पर्चा</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="IE">ले</w>
+                            <w ctag="VE">भरिए</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="VVYX2">छन्</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="98">
+                            <w ctag="NP">सप्तरी</w>
+                            <w ctag="NN">जिल्ला</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NP">राजविराज</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NN">कन्चनपुर</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NN">फत्तेपुर</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NN">हनुमाननगर</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NP">भारदह</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NP">महुली</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NN">रूपनी</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NN">कठौना</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NN">पातो</w>
+                            <w ctag="VVYN1">वर्सोइन</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NN">कल्याणपुर</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NN">शम्भुनाथ</w>
+                            <w ctag="NN">मेला</w>
+                            <w ctag="CC">र</w>
+                            <w ctag="NN">कुशहा</w>
+                            <w ctag="NN">बजार</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="JX">नेपाली</w>
+                            <w ctag="NN">कांग्रेस</w>
+                            <w ctag="YM">,</w>
+                            <w ctag="NP">नेपाल</w>
+                            <w ctag="NN">कम्युनिष्ट</w>
+                            <w ctag="NN">पार्टी</w>
+                            <w ctag="IH">हरू</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="NN">चुनाव</w>
+                            <w ctag="NN">प्रचार</w>
+                            <w ctag="NN">प्रसार</w>
+                            <w ctag="NN">कार्यालय</w>
+                            <w ctag="VQ">खोली</w>
+                            <w ctag="JX">निरन्तर</w>
+                            <w ctag="NN">रूप</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NN">माइक</w>
+                            <w ctag="II">बाट</w>
+                            <w ctag="NN">बिहान</w>
+                            <w ctag="II">देखि</w>
+                            <w ctag="NN">राति</w>
+                            <w ctag="RR">अवेर</w>
+                            <w ctag="II">सम्म</w>
+                            <w ctag="NN">चुनाव</w>
+                            <w ctag="NN">प्रचार</w>
+                            <w ctag="VE">भइरहे</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="TT">पनि</w>
+                            <w ctag="VVYX2">छन्</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="99">
+                            <w ctag="NP">सप्तरी</w>
+                            <w ctag="NN">जिल्ला</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">क्षेत्र</w>
+                            <w ctag="FB">नं.</w>
+                            <w ctag="MM">५</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NP">नेपाल</w>
+                            <w ctag="NN">कम्युनिष्ट</w>
+                            <w ctag="NN">पार्टी</w>
+                            <w ctag="YB">(</w>
+                            <w ctag="NP">वर्मा</w>
+                            <w ctag="YB">)</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="NN">महासचिव</w>
+                            <w ctag="NP">कृष्णराज</w>
+                            <w ctag="NP">वर्मा</w>
+                            <w ctag="NN">उम्मेदवार</w>
+                            <w ctag="VI">हुनु</w>
+                            <w ctag="VE">भए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">छ</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                        <s n="100">
+                            <w ctag="PXH">उहां</w>
+                            <w ctag="FB">वि.</w>
+                            <w ctag="FB">सं.</w>
+                            <w ctag="MM">२०१५</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">आमनिर्वाचन</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="TT">पनि</w>
+                            <w ctag="NN">उम्मेदवार</w>
+                            <w ctag="VVYN1">हुनुहुन्थ्यो</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="101">
+                            <w ctag="NP">सप्तरी</w>
+                            <w ctag="NN">जिल्ला</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">क्षेत्र</w>
+                            <w ctag="FB">नं.</w>
+                            <w ctag="MM">२</w>
+                            <w ctag="II">बाट</w>
+                            <w ctag="NP">नेपाल</w>
+                            <w ctag="NN">सद्भावना</w>
+                            <w ctag="NN">पार्टी</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="JX">केन्द्रीय</w>
+                            <w ctag="NN">अध्यक्ष</w>
+                            <w ctag="NP">गजेन्द्रनारायण</w>
+                            <w ctag="NP">सिंह</w>
+                            <w ctag="NN">उम्मदेवार</w>
+                            <w ctag="VVYN1">हुनुहुन्छ</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                    <p>
+                        <s n="102">
+                            <w ctag="NP">सप्तरी</w>
+                            <w ctag="NN">जिल्ला</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">क्षेत्र</w>
+                            <w ctag="FB">नं.</w>
+                            <w ctag="MM">५</w>
+                            <w ctag="NN">बाटै</w>
+                            <w ctag="JX">नेपाली</w>
+                            <w ctag="NN">कांग्रेस</w>
+                            <w ctag="II">बाट</w>
+                            <w ctag="NN">उम्मदेवार</w>
+                            <w ctag="VI">हुनु</w>
+                            <w ctag="VE">भए</w>
+                            <w ctag="IKO">का</w>
+                            <w ctag="NN">दुर्गानन्दप्रसाद</w>
+                            <w ctag="NP">सिंह</w>
+                            <w ctag="MM">२०१५</w>
+                            <w ctag="NN">साल</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="NN">आमचुनाव</w>
+                            <w ctag="II">मा</w>
+                            <w ctag="NN">क्षेत्र</w>
+                            <w ctag="FB">नं.</w>
+                            <w ctag="MM">३२</w>
+                            <w ctag="II">बाट</w>
+                            <w ctag="JX">विजयी</w>
+                            <w ctag="VE">हुनुभए</w>
+                            <w ctag="IKM">को</w>
+                            <w ctag="VVYN1">थियो</w>
+                            <w ctag="YF">।</w>
+                        </s>
+                    </p>
+                </div>
+            </body>
+        </group>
+    </text>
+</cesDoc>
