@@ -1,0 +1,35 @@
+{% extends "poll/base.html" %}
+
+{% block content %}
+{% for q in question %}
+    <h1>{{ q.id }} - {{ q.question_text }}</h1>
+    <ul>
+    {% for c in choice %}
+        {% if c.question_id == q.id %}
+        <li>{{ c.choice_text|upper }} -- {{ c.votes }}  </li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+    <br/>
+{% endfor %}
+
+ {%  comment %}
+ {% for q in question %}
+    <h1>{{ q.question_text }}</h1>
+    {% for c in choice %}
+        {% if c.question.question_text == q.question_text %}
+            <p>{{ c.choice_text }} -- {{ c.votes }}</p>
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+ <ul>
+{% for choice in question.choice_set.all %}
+    {% if choice.votes >= 20 %}
+    <li><b>{{ choice.choice_text }} -- {{ choice.votes }} vote{{ choice.votes|pluralize }}</b></li>
+    {% else %}
+    <li>{{ choice.choice_text }} -- {{ choice.votes }} vote{{ choice.votes|pluralize }}</li>
+    {% endif %}
+{% endfor %}
+</ul>
+{% endcomment %}
+{% endblock %}
