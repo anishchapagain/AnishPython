@@ -1,27 +1,75 @@
-{"menu": {
+{
+  "menu": {
     "header": "SVG Viewer",
     "items": [
-        {"id": "Open"},
-        {"id": "OpenNew", "label": "Open New"},
-        null,
-        {"id": "ZoomIn", "label": "Zoom In"},
-        {"id": "ZoomOut", "label": "Zoom Out"},
-        {"id": "OriginalView", "label": "Original View"},
-        null,
-        {"id": "Quality"},
-        {"id": "Pause"},
-        {"id": "Mute"},
-        null,
-        {"id": "Find", "label": "Find..."},
-        {"id": "FindAgain", "label": "Find Again"},
-        {"id": "Copy"},
-        {"id": "CopyAgain", "label": "Copy Again"},
-        {"id": "CopySVG", "label": "Copy SVG"},
-        {"id": "ViewSVG", "label": "View SVG"},
-        {"id": "ViewSource", "label": "View Source"},
-        {"id": "SaveAs", "label": "Save As"},
-        null,
-        {"id": "Help"},
-        {"id": "About", "label": "About Adobe CVG Viewer..."}
+      {
+        "label": "",
+        "id": "Open"
+      },
+      {
+        "label": "Open New",
+        "id": "OpenNew"
+      },
+      {
+        "label": "No2 Label",
+        "id": "No2"
+      },
+      {
+        "label": "Zoom Out",
+        "id": "ZoomOut"
+      },
+      {
+        "label": "Original View",
+        "id": "OriginalView"
+      },
+      {
+        "label": "No6 Label",
+        "id": "No6"
+      },
+      {
+        "id": "Pause"
+      },
+      {
+        "id": "Mute"
+      },
+      {
+        "label": "Find...",
+        "id": "Find"
+      },
+      {
+        "label": "Find Again",
+        "id": "FindAgain"
+      },
+      {
+        "id": "Copy"
+      },
+      {
+        "label": "Copy Again",
+        "id": "CopyAgain"
+      },
+      {
+        "label": "Copy SVG",
+        "id": "CopySVG"
+      },
+      {
+        "label": "View SVG",
+        "id": "ViewSVG"
+      },
+      {
+        "label": "View Source",
+        "id": "ViewSource"
+      },
+      {
+        "label": "Save As",
+        "id": "SaveAs"
+      },
+      {
+        "id": "Help"
+      },
+      {
+        "label": "About Adobe CVG Viewer...",
+        "id": "About"
+      }
     ]
-}}
+  }
+}

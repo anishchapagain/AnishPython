@@ -52,7 +52,6 @@ print("Group 1: ",datematch.group(1))
 print("Group Delimiter: ",datematch.group('delimiter'))
 print("Group 2: ",datematch.group(2))
 print("Group Month: ",datematch.group('month'))
-
 print("Group 3: ",datematch.group(3))
 print("Group Day: ",datematch.group('day'))
 print("Group 4: ",datematch.group(4))
@@ -77,6 +76,9 @@ l = ["555-8396 Neu, Allison",
 
 for i in l:
     res = re.search(r"([0-9-]*)\s*([A-Za-z]+),\s+(.*)", i)
+    print(res.groups())
+    print("Group >> ",res.group(0,1,2,3))
+    print(len(res.group()))
     print(res.group(3) + " " + res.group(2) + " " + res.group(1))
 
 

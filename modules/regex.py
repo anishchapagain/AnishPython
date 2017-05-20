@@ -9,24 +9,27 @@ import re
 # re.search(pattern,str,re.I|re.MULTILINE|re.M)
 
 # #Findall
-#cat = "A fat cat doesn't eat oat but a cat eats bats"
-#catmatch = re.findall("[acboe]at",cat) # [a-zA-Z0-9] - range of possible characters
-#print("Findall found total ",len(catmatch)," Matches >> ",catmatch)
+cat = "A fat cat doesn't eat oat but a cat eats bats"
+catmatch = re.findall("[acboe]at",cat) # [a-zA-Z0-9] - range of possible characters
+print("Findall found total ",len(catmatch)," Matches >> ",catmatch)
 # ['cat', 'eat', 'oat', 'cat', 'eat', 'bat']
 
 #split
-#catmatch = re.split(r"[acboe]at",cat)
-#print("Regular Split : ",catmatch)
-#catmatch = re.split(r"\W+",cat)  #\w - word characters, \W - non word Characters  (+ one/more , * zero/more)
-#print("Regular Split \W+ : ", catmatch)
+catmatch = re.split(r"[acboe]at",cat)
+print("Regular Split : ",catmatch)
+catmatch = re.split(r"\W+",cat)  #\w - word characters, \W - non word Characters  (+ one/more , * zero/more)
+print("Regular Split \W+ : ", catmatch)
 
 #Sub - Substitute
-#replace = re.sub("[acboe]at",'Cat',cat)
-#print("Substitute : ", replace)
+replace = re.sub("[acboe]at",'Cat',cat)
+print("Substitute : ", replace)
 
 #Findall expressions
 sentences = "OF bodies chang'd to various forms, I sing: Ye Gods, from whom these miracles did spring, Inspire my numbers with coelestial heat;"
 print("\nSentence: ",sentences)
+
+meta = re.findall(r'\b[A-Za-z]{2}\s',sentences) # 2 char 
+print("\n\b[A-Za-z]{2} : ",meta)
 
 meta = re.findall(r'[A-Za-z]{2}',sentences) # 2 char 
 print("\n1 [A-Za-z]{2} : ",meta)
