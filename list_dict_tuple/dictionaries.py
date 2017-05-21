@@ -51,6 +51,7 @@ print("Dict added : ", d)
 
 # update: concat (same keys with values provided)
 d.update({"UK": "London"})
+d.update({"Country": "London-England"})
 print("\nDict update() : ", d)
 
 

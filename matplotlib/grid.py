@@ -4,7 +4,8 @@ import sys
 print(sys.version)
 print(sys.executable)
 
-import matplotlib 
+import matplotlib
+import matplotlib.pyplot as plt
 import numpy as np
 
 t = np.arange(0.0, 2.0, 0.01)
