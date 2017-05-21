@@ -1,9 +1,10 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import os
 
 # Read in the csv file and display some of the basic info
-sales=pd.read_csv("sample-salesv2.csv",parse_dates=['date'])
+sales=pd.read_csv(os.path.dirname(os.path.abspath(__file__))+'/sample-salesv2.csv',parse_dates=['date'])
 print("Data types in the file:")
 print(sales.dtypes)
 print("Summary of the input file:")
