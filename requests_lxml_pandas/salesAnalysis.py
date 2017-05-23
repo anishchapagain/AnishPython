@@ -7,7 +7,7 @@ import os
 sales=pd.read_csv(os.path.dirname(os.path.abspath(__file__))+'/sample-salesv2.csv',parse_dates=['date'])
 print("Data types in the file:")
 print(sales.dtypes)
-print("Summary of the input file:")
+print("Summary of the input file:") 
 print(sales.describe())
 print("Basic unit price stats:")
 print(sales['unit price'].describe())

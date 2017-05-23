@@ -1,5 +1,5 @@
 import csv
-from urllib2 import urlopen
+from urllib.request import urlopen
 import requests
 import lxml.html as html
 from lxml.etree import XPath
@@ -32,7 +32,7 @@ def get_page_rows(page):
 
 
 def write_csv(mydict):
-    with open('earthquake.csv', 'wb') as csv_file:
+    with open('earthquake.csv', 'w',newline='') as csv_file:
         writer = csv.writer(csv_file)
         for key, value in mydict.items():
             if type(value) is not list:
@@ -41,7 +41,7 @@ def write_csv(mydict):
 
 
 def writeto_csv(mydict):
-    with open('earthquake.csv', 'wb') as csv_file:
+    with open('earthquake.csv', 'w', newline='') as csv_file:
         writer = csv.DictWriter(csv_file,
                                 fieldnames=["Date", "Time", "Latitude", "Longitude", "Magnitude", "Epicentre"])
         writer.writeheader()
@@ -53,7 +53,7 @@ def writeto_csv(mydict):
 
 if __name__ == '__main__':
     pages = ["http://www.seismonepal.gov.np/index.php?action=earthquakes&show=recent&page=%s" % page for page in
-             xrange(1, 3)]
+             range(1, 3)]
     data = list()
     for page in pages:
         scrape_page = get_page_rows(page)

@@ -49,8 +49,12 @@ def writeto_csv(quakedata):
 
 def plot_data():
     df = pd.read_csv('earthquake.csv',parse_dates=['Date'],index_col=['Date'],dayfirst=True)
-    ax = df[['Magnitude']].plot(kind='bar',title ="Magnitude Date Wise", figsize=(10, 6), legend=True, fontsize=12)
-    ax.set_xlabel("Date", fontsize=12)
+    values = df[['Magnitude','Epicentre']]
+    magnitude = values['Magnitude'] > 4.5
+    epicentre = values['Epicentre'] == 'Dolakha'
+    sel_values = values[epicentre & magnitude]
+    ax = sel_values.plot(kind='bar',title ="Location Wise", figsize=(10, 6), legend=True, fontsize=12)
+    ax.set_xlabel("Epicentre", fontsize=12)
     ax.set_ylabel("Magnitude", fontsize=12)
     plt.show()
 
