@@ -1,3 +1,7 @@
+'''
+Numpy: basics , array, functions, constants, formulas , random
+@anishchapagain : github
+'''
 import numpy as np
 
 >>> a=np.arange(10)
