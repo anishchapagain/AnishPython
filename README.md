@@ -1,6 +1,6 @@
 "PythonNotes" {{ page.title | smartify }}
 
-Python Scripts for Educational (Learning) Purpose {{ site.time | date_to_long_string }}
+Python Scripts for Educational (Learning) Purpose - {{ site.time | date_to_long_string }}
 <hr/>
 "Python is a programming language that lets you work quickly and integrate systems more effectively. "
 
