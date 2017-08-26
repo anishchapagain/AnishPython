@@ -1,5 +1,6 @@
 # PythonNotes
 Python Scripts for Educational (Learning) Purpose
+{{ site.time | date_to_rfc822 }}
 
 Python is a programming language that lets you work quickly and integrate systems more effectively. 
 
