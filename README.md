@@ -1,4 +1,4 @@
-"PythonNotes"{{ page.title | smartify }}
+"PythonNotes" {{ page.title | smartify }}
 
 Python Scripts for Educational (Learning) Purpose {{ site.time | date_to_long_string }}
 <hr/>
@@ -14,18 +14,5 @@ Python Scripts for Educational (Learning) Purpose {{ site.time | date_to_long_st
     
 <hr/>
 
-{% highlight python %}
- #Identity: is , is not
- a= True
- b= True
- print("\n a is b : ", (a is b))
- print("\n a is not b : ", (a is not b))
-    
- #Membership: in, not in
- word = "Python"
- print("\n 'P' in Python : ",('P' in word))
- print("\n 'A' not in Python : ",('A' not in word))
-{% endhighlight %}
-<hr />
 
 {{ page.content | number_of_words }} Tags: {{ page.tags | array_to_sentence_string }}
