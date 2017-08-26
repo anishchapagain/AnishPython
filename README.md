@@ -13,6 +13,3 @@ Python Scripts for Educational (Learning) Purpose {{ site.time | date_to_long_st
     Python mostly used for Data Science and  Machine Learning.
     
 <hr/>
-
-
-{{ page.content | number_of_words }} Tags: {{ page.tags | array_to_sentence_string }}
