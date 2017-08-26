@@ -13,7 +13,8 @@ Python Scripts for Educational (Learning) Purpose {{ site.time | date_to_long_st
     Python mostly used for Data Science and  Machine Learning.
     
 <hr/>
- {% highlight python %}
+
+{% highlight python %}
  #Identity: is , is not
  a= True
  b= True
@@ -24,6 +25,7 @@ Python Scripts for Educational (Learning) Purpose {{ site.time | date_to_long_st
  word = "Python"
  print("\n 'P' in Python : ",('P' in word))
  print("\n 'A' not in Python : ",('A' not in word))
- {% endhighlight %}
+{% endhighlight %}
 <hr />
+
 {{ page.content | number_of_words }} Tags: {{ page.tags | array_to_sentence_string }}
