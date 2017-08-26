@@ -11,18 +11,19 @@ Python Scripts for Educational (Learning) Purpose {{ site.time | date_to_long_st
     Python Programs are portable, embedding Python codes to from C.
     Useful Python Standard Library (Python Installation)
     Python mostly used for Data Science and  Machine Learning.
-    <br/>
-    {% highlight python %}
-    #Identity: is , is not
-    a= True
-    b= True
-    print("\n a is b : ", (a is b))
-    print("\n a is not b : ", (a is not b))
     
-    #Membership: in, not in
-    word = "Python"
-    print("\n 'P' in Python : ",('P' in word))
-    print("\n 'A' not in Python : ",('A' not in word))
-    {% endhighlight %}
+<hr/>
+ {% highlight python %}
+ #Identity: is , is not
+ a= True
+ b= True
+ print("\n a is b : ", (a is b))
+ print("\n a is not b : ", (a is not b))
+    
+ #Membership: in, not in
+ word = "Python"
+ print("\n 'P' in Python : ",('P' in word))
+ print("\n 'A' not in Python : ",('A' not in word))
+ {% endhighlight %}
 <hr />
 {{ page.content | number_of_words }} Tags: {{ page.tags | array_to_sentence_string }}
