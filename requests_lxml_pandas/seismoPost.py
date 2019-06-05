@@ -50,7 +50,7 @@ def writeto_csv(mydict):
 
 
 if __name__ == '__main__':
-    years = [2017,2016,2015,2014,2010,2001,2000,2012]
+    years = [2018,2017,2016,2015]#,2014,2010,2001,2000,2012]
     postUrl = "http://www.seismonepal.gov.np/index.php?action=earthquakes&show=past"
     data = list()
     for year in years:

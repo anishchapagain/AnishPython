@@ -1,8 +1,7 @@
 import csv
 import os
 
-# filename = 'earthquakePast.csv'
-filename = 'earthquakePast_check.csv'
+filename = 'earthquakePast.csv'
 
 lats,lons = [], []
 epicentre,magnitudes = [],[]

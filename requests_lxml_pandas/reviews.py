@@ -1,7 +1,8 @@
 import requests
 import json
 import readapi
-import pickle
+from collections import Counter
+import sys
 
 # #100106145   100307497
 # List for All Review
@@ -23,17 +24,23 @@ def main():
 
 
 def write_output(list):
-    fp = open('text.txt','wb')
-    json.dump(list, fp)
-    # fp.write("\n".join(list))
+    fp = open('text.txt','r+')
+    #json.dump(list, fp)
+    fp.write(list)
+    fp.close()
 
 
 if __name__ == '__main__':
     # main()
     # print main.__doc__
-    print product_id
+
+    print ("Looking For: "+product_id+" from http://api.bazaarvoice.com/data")
     temp_data = readapi.get_reviews(url, product_id=100106145, limit=23, offset_value=0, page_break=2)
     data = temp_data[:]
-    print "Length >> " + str(len(data))
-    write_output(data)
-    # print data
+    print ("Length >> " + str(len(data)))
+    #write_output(data)
+    print ("Lets explore the Data received using 'collections' ")
+    reviews = ' '.join(data)
+    print("\nALL Reviews : "+reviews)
+    dataDict = dict(Counter(reviews.split(' ')))
+    print ("\nDictionary Reviews :\n"+str(dataDict))

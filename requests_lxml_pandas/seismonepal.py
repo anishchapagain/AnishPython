@@ -16,7 +16,8 @@ def read_url(url):
 
 def get_page_rows(page):
     response = read_url(page)
-    rows = response.find('div.block2-content table tr')
+    rows = response.find('table#dblue').next().find('table').text()
+    print(rows)
     print("count >> ", rows.__len__())
     data = list()
     for row in rows.items():
@@ -51,14 +52,14 @@ def writeto_csv(mydict):
             writer.writerows(list)
 
 
-if __name__ == '__main__':
-    pages = ["http://www.seismonepal.gov.np/index.php?action=earthquakes&show=recent&page=%s" % page for page in
-             range(1, 3)]
+if __name__ == '__main__': 
+    pages = ["http://www.seismonepal.gov.np/index.php?action=earthquakes&show=recent&page=%s" % page for page in range(1, 3)]
     data = list()
     for page in pages:
         scrape_page = get_page_rows(page)
         print("Finding Page >> ", page)
         data.append(scrape_page)
+        break
 
     writeto_csv(data)
     print('Completed')

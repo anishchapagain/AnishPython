@@ -21,16 +21,16 @@ def get_reviews(url, product_id, limit, offset_value, page_break):
         reviews = js['BatchedResults']['q0']['Results']
 
         if page == 1:
-            print "Total Results : " + str(page)
-            print total_results
+            print ("Total Results : " + str(page))
+            print (total_results)
             total_page = int(round(total_results / 100))
 
-        print "Page " + str(page) + " of " + str(total_page) + "\n"
+        print ("Page " + str(page) + " of " + str(total_page) + "\n")
         i = 0
         if total_results > 0:
             for review in reviews:
                 i += 1
-                print str(review['Title']) + " >> " + str(review['Rating'])
+                print (str(review['Title']) + " >> " + str(review['Rating']))
                 temp_data.append(review['Title'])
                 # if i == 10:
                 #      break
