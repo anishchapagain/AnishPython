@@ -29,7 +29,6 @@ print("words[:5] :", words[:5])#0 to 10 char, change index values and check!!
 #Printing Chars: every 2nd char of the String
 print(words[::2]) 
 
-
 #Loop: Strings with index
 print("Printing String with Its Index:\n")
 

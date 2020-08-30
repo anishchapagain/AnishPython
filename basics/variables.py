@@ -1,5 +1,9 @@
 """
-Declaring variables, Basic Mathematics, Printing and using some Inbuilt Objects
+Declaring variables, Basic 
+Mathematics,
+ Printing and using some 
+ Inbuilt
+ Objects
 """
 
 words = "I Love Python"

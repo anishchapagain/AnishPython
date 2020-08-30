@@ -12,10 +12,9 @@ for char in words:
                 print("P found ", char)
         else:
                 print(" Else >> ",char)
-else:
-        print("Completed For 1.")
 
-#quit()
+else:
+        print("For loop is completed now!")
 
 print("\nFor Loop 2.")
 for char in words:
@@ -23,13 +22,16 @@ for char in words:
                 print("P Found ", char)
         else:
                 print(char)
+
+        print("Before break")
         break #terminate current executing Block
+        print("After break")
 else:
         print("Completed For")
 
 print("Outside For 2.")
 
-#quit()
+
 
 print("\nFor Loop 3.")
 for char in words:
@@ -50,6 +52,7 @@ for char in words:
     if char == 'P' :
             print("P Found " , char) 
     else:
+            print(char)
             pass
 else:
         print("Completed For")

@@ -8,14 +8,14 @@ ex: myList = []
 
 emptyList = []
 mixedList = [1,2,3,4,56.7,34.6]
-mixedList_0 = [1,2,3,4,56.7,34.6,"the",'python']
+mixedList_0 = [1,2,3,4,56.7,34.6,"the",'python'] #imp
+
 
 print("MixedList :",mixedList)
 print("Type of MixedList :",type(mixedList))
 print("Length of MixedList :",len(mixedList))
 print("Max of List :",max(mixedList))
 print("Min of List :",min(mixedList))
-
 #quit()
 
 
@@ -28,11 +28,14 @@ print("List[lastIndex] : ",mixedList[len(mixedList)-1])
 index=0
 for value in mixedList:
     print(" mixedList[",index,"] : ",value)
-    index+=1
-
+    index+=1 #index=index+1
+    
 
 #nested Lists
-nested=[['C','C++','Java','Python','????'],['CSV','JSON','XML','TXT','SQL',''],['Cricket','Football','Badminton','']]
+nested=[['C','C++','Java','Python','????'],
+        ['CSV','JSON','XML','TXT','SQL',''],
+        ['Cricket','Football','Badminton','']]
+
 print("\n Nested List : ",nested)
 print("Length of Nested  : ",len(nested))
 print("Length of Nested[0]  : ",len(nested[0]))
@@ -41,10 +44,9 @@ print("Length of Nested[2]  : ",len(nested[2]))
 
 print("\n Accessing Nested List")
 print("Nested[0] : ", nested[0])
-print("Nested[2] : ", nested[2])
+print("Nested[2] : ", nested[2])#-1
 print("\nNested[0][3] : ",nested[0][3])
 print("Nested[2][1] : ", nested[2][1])
-
 
 #Updating List Value
 print("\n Updating List values")
@@ -81,3 +83,4 @@ if "PHP" in newlist: #not in
     print('"PHP" is in newlist')
 else:
     print("Inside ELSE")
+

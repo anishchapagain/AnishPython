@@ -2,9 +2,14 @@
 String variable and some basic operations
 """
 
+#if 'title' has 'Aa', first char 'A' or 'a' : regex!
+#take all those rows
+#further analysis
+
 words = "I Love Python"  #type 1
 words_again ='I Love Python' #type 2
 name = 'student' 
+#p8138.
 
 #Multi-Line String #type 3
 words_multi_line= '''Python is a scientific
@@ -52,4 +57,6 @@ else:
 
 #replace('existing char','new char'):
 #Strips: lstrip(), rstrip(), strip() removing spaces in Strings.
+
+    
 #Other Decision Making functions: isalnum(), isalpha(),isdigit(),islower(),isnumeric(),isspace(),istitle(),isupper()

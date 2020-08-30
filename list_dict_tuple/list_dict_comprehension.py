@@ -12,17 +12,21 @@ print("\nExample 1")
 #keys
 print(dict_a.keys())
 print(list(dict_a.keys()))#casting
+
 #values
 print(dict_b.values())
 print(list(dict_b.values()))#casting
+
 #merging Kes and Values
 print(list(zip(dict_a.keys(),dict_b.values())))
 print(dict(list(zip(dict_a.keys(),dict_b.values()))))
 
-
 print("\nExample 2")
 dict_abc = list(zip(dict_a.keys(),dict_b.values()))
 print("Dict ABC >> ",dict_abc)
+
+print("\nExample 3")
+#collecting KEY and VALUEs from List with Tuple!
 key, value = zip(*dict_abc)
 print("Dict ABC Key : ",key)
 print("Dict ABC Value : ", value)

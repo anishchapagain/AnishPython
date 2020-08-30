@@ -19,6 +19,9 @@ print("\n Word index() : ",words.index("playing"))
 print("\n Word index() : ",words.index("cat",3)) 
 print("\n Word index() : ",words.index("cat",3,10)) #index("element",start_looking_from,end_looking_till)
 
+print("\n The index() : ",words.index("the")) 
+print("\n The index() : ",words.index("the",3)) 
+print("\n The index() : ",words.index("the",5,10)) #index("element",start_looking_from,end_looking_till)
 
 #insert element at given index
 words.insert(4,'cat')
@@ -29,7 +32,7 @@ words.sort()
 print("\nSorted : ",words)
 
 #reverse
-words.reverse()
+words.reverse() #loop, variable
 print("\nReversed : ",words)
 
 #append
@@ -42,7 +45,7 @@ print("\n List remove() : ",mixedList)
 
 #pop : remove and return last object
 print("\n List : ",mixedList)
-print("POP : ",mixedList.pop())#last object if no index is given
+print("POP : ",mixedList.pop())#last object del/remove if no index is given
 print("List: ",mixedList)
 print("POP with index : ",mixedList.pop(0))#with index
 print("List: ",mixedList)

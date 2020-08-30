@@ -3,26 +3,23 @@ Numpy: basics , array, functions, constants, formulas , random
 @anishchapagain : github
 '''
 import numpy as np
+a=np.arange(10)
+a #array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
 
->>> a=np.arange(10)
->>> a
-array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+a.dtype #dtype('int32')
 
->>> a.dtype
-dtype('int32')
+a.shape #(10,) ???
 
->>> a.shape
-(10,)
+a.ndim #1
 
->>> a.ndim
-1
->>> z=np.zeros((3,6))
->>> z
+z=np.zeros((3,6))
+z
+'''
 array([[ 0.,  0.,  0.,  0.,  0.,  0.],
        [ 0.,  0.,  0.,  0.,  0.,  0.],
        [ 0.,  0.,  0.,  0.,  0.,  0.]])
-	   
->>> ez=np.empty((3,6))
+'''	   
+ez=np.empty((3,6))
 >>> ez
 array([[ 0.,  0.,  0.,  0.,  0.,  0.],
        [ 0.,  0.,  0.,  0.,  0.,  0.],

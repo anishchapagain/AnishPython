@@ -1,6 +1,22 @@
 {
   "menu": {
     "header": "SVG Viewer",
+    "itemsMenu": 
+      {
+        "OpenMenu": [
+          {
+            "label": "",
+            "id": "Open"
+          }
+        ],
+        "ZoomMenu": [
+          {
+            "label": "Zoom Out",
+            "id": "ZoomOut"
+          }
+        ]
+      }
+    ,
     "items": [
       {
         "label": "",

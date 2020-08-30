@@ -7,14 +7,15 @@ import os
 #writeheader: write header
 
 filename="newCSV.csv"
-with open(os.path.dirname(os.path.abspath(__file__))+'/'+filename, 'w+',newline='') as f:
+with open(os.path.dirname(os.path.abspath(__file__))+'/'+filename, 'w',newline='') as f:
     writer = csv.writer(f)
-    writer.writerow(['Header 1', 'Header 2', 'Header 3', 'Header 4']) #Header
-    for i in range(3):
+    writer.writerow(['Header 1', 'Header 2', 'Header 3', 'Header 4']) #1. Header
+    
+    for i in range(5): #   2
         print(i)
         row = [
             i + 1,
-            "Data "+str(i),
+            "Data "+str(i)+", ",
             "DataRow "+str(i),
             "DataRow Again "+str(i)
         ]

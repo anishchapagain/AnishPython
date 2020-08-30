@@ -5,10 +5,9 @@ dict_a = {key:value, key:value, key:value}
 """
 
 l = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-t = (1, 2, 3, 4, 56.7, 34.6)
+t = (1, 2, 3, 4, 56.7, 34.6,3.14237)
 countries = {}  # empty Dictionary
-d = {"Nepal": "Kathmandu", "China": "Beijing",
-     "Japan": "Tokyo", "Russia": "Moscow", "Change": "Change"}
+d = {"Nepal": "Kathmandu", "pi": 3.14237, "Japan": "Tokyo", "Russia": "Moscow", "Change": "Change"}
 
 print("Dictionary : ", d)
 print("Type() : ", type(d))
@@ -17,7 +16,6 @@ print("Length : ", len(d))
 print("\nDictionary ['Nepal'] : ", d['Nepal'])  # d[0]: throws error
 print("Dictionary ['Russia'] : ", d['Russia'])
 print("Dictionary get() : ", d.get('Russia'))  # similar to line above
-
 
 keys = d.keys()
 values = d.values()
@@ -42,7 +40,6 @@ if "Nepal" in d:  # not in
 for item in d.items():  # returns Tuple
     print(item[0], " >> ", item[1])
 
-
 # Adding key,value
 print("\n Dict : ", d)
 d["Singapore"] = "Singapore City"
@@ -54,10 +51,11 @@ d.update({"UK": "London"})
 d.update({"Country": "London-England"})
 print("\nDict update() : ", d)
 
-
 # pop(): removes given key with its value
 d.pop("Country")
 print("\nDict pop() : ", d)
+#d.pop()
+#print("\nDict pop() : ", d)
 
 # popitem(): removes and returns (key,value) pair as Tuple()
 print("Popitem : ", d.popitem())
@@ -71,5 +69,4 @@ print("\nCopy copy() : ", dcopy)
 print("\nClearing Copied Dict")
 dcopy.clear()
 print("Copy Dict : ", dcopy)
-
-# quit()
+print("\nDict : ", d)

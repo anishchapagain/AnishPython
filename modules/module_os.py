@@ -14,29 +14,36 @@ def dump(st):
     #print("- inode/dev:", ino, dev)
 
 
-print(os.sep)
+print("Seperator: ",os.sep)
 
-print('__file__ : ',__file__)
+print('__file__ : ',__file__)#2
+print('os.getcwd() : ',os.getcwd())#1
+print("e:"+os.sep+os.path.join(os.sep,'home','dir','test'))
 
-print('os.getcwd() : ',os.getcwd())
-
-print(os.path.join(os.sep,'home','dir','test'))
+print('os.path.abspath(__file__) :',os.path.abspath(__file__))
+print('os.path.realpath(__file__) :',os.path.realpath(__file__))
+print(os.path.dirname(os.path.abspath(__file__)))
+#os.path #3
 
 print('os.path.curdir :', os.path.curdir)
 print('os.path.isdir :', os.path.isdir(os.path.realpath(__file__)))
 print('os.path.isfile :', os.path.isfile(os.path.realpath(__file__)))
 print('os.path.exists :', os.path.exists(os.path.curdir))
-print('os.path.splittext :', os.path.splitext(os.path.realpath(__file__)))
+print('os.path.splitext :', os.path.splitext(os.path.realpath(__file__)))#4
+print('os.listdir : ',os.listdir(os.path.dirname(__file__))) #6
 
-print('os.path.split :', os.path.split(os.path.realpath(__file__)))
+filename=os.path.splitext(os.path.realpath(__file__))
+print("Filename : ",filename)
+l=filename[0].split('\\')
+print("\n\n-- Actual Name: ",l[-1], 'Extension: ',filename[1])
+
+print('os.path.split :', os.path.split(os.path.realpath(__file__)))#7
 print('os.path.splitdrive :', os.path.splitdrive(os.path.realpath(__file__)))
 
 print('os.path.dirname(__file__) : ',os.path.dirname(__file__))
-print('os.path.realpath(__file__) : ',os.path.realpath(__file__))
-print('os.path.abspath(__file__) : ',os.path.abspath(__file__))  
-print('os.path.basename(__file__) : ',os.path.basename(__file__))
-
-print('os.listdir : ',os.listdir(os.path.dirname(__file__)))
+#print('os.path.realpath(__file__) : ',os.path.realpath(__file__))
+#print('os.path.abspath(__file__) : ',os.path.abspath(__file__))  
+print('os.path.basename(__file__) : ',os.path.basename(__file__))#5
 
 
 print('os.path.getmtime : ',time.ctime(os.path.getmtime(__file__)))

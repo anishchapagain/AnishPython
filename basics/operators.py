@@ -1,13 +1,13 @@
-"""
+.co"""
 Logical , Comparison, identity and Membership Operators
 
-Logical 'and'
+Logical 'and': any one False is False!
 True True = True
 True False = False
 False True = False
 False False = False
 
-Logical 'or'
+Logical 'or': any one True is True!
 True True = True
 True False = True
 False True = True
@@ -16,11 +16,12 @@ False False = False
 
 x=10
 y=8
+
 #Logical and
 if x>0 and y<10:
-        print (" x and y")
+        print (" x and y") #True
 else:
-        print(" x and y : fails")
+        print(" x and y : fails") #False
 
 #Logical or
 if x>0 or y<10:
@@ -28,24 +29,32 @@ if x>0 or y<10:
 else:
         print(" x or y : fails")
 
+#assign: =
+#Condition
+#Comparison Operators: Boolean TRUE/FALSE (Yes/No)
 
-#Comparison Operators
-print('\n IF x==y : ',x==y)
-print(' IF x!=y : ',x!=y)
-print(' IF x>y : ',x>y)
-print(' IF x<y : ',x<y)
-print(' IF x>=y : ',x>=y)
-print(' IF x<=y : ',x<=y)
+print('\n IF x==y : ',x==y)#double equal (is equal) maximum!
+print(' IF x!=y : ',x!=y)#is not equal
+
+print(' IF x>y : ',x>y)#greater
+print(' IF x<y : ',x<y)#less
+
+print(' IF x>=y : ',x>=y)#greater than and equal (>, ==) >=
+print(' IF x<=y : ',x<=y)#less than and equal (<, ==) <=
+
+
+#\n: newlines
+#\t: tab
 
 
 #Identity: is , is not
 a=True
 b = True
-print("\n a is b : ", (a is b))
-print("\n a is not b : ", (a is not b))
+print("\n a is b : ", (a is b)) # ==  a==b
+print("\n a is not b : ", (a is not b)) # !=  a!=b
 
-#Membership: in, not in
+#Membership: in, not in #CHECKing/Questioning
 word = "Python"
 print("\n 'P' in Python : ",('P' in word))
-print("\n 'A' not in Python : ",('A' not in word))
+print("\n 'A' not in Python : ",('A' not in word)) #check if 'A' is not inside word 
 

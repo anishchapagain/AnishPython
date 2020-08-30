@@ -2,7 +2,7 @@
 #http://pandas.pydata.org/pandas-docs/stable/10min.html
 #fileHandling : http://python-course.eu/file_management.php
 #os, sys : http://www.thomas-cokelaer.info/tutorials/python/module_os.html
-#pymotw
+#pymotw.com
 
 from datetime import datetime
 import time
@@ -31,10 +31,14 @@ print("Now time.time() : ",now)
 print ("The time . time() : ",time.time())
 print ("The time . clock() : ",time.clock())
 
+#strftime: convert to given code and print
+#strptime: parse given string to date time
 
+
+#example: Trick!! : 
 date1= "1/20/2017"
 date2= "3/20/2017"
-newdate1 = time.strptime(date1,"%m/%d/%Y")
+newdate1 = time.strptime(date1,"%m/%d/%Y")#1/20/2017 - m/d/Y
 newdate2 = time.strptime(date2,"%m/%d/%Y")
 if(newdate2 < newdate1):
     print (date2," is greater than ",date1)

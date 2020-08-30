@@ -1,5 +1,6 @@
 #https://realpython.com/blog/python/primer-on-python-decorators/
-#Decorators allow you to make simple modifications to callable objects like functions, methods, or classes
+#Decorators allow you to make simple modifications to callable objects like functions,
+#methods, or classes
 #decorators wrap a function, modifying its behavior
 
 #http://www.python-course.eu/python3_decorators.php
@@ -14,6 +15,7 @@ def f():
     print("I am calling 'g' now:")
     g()   
 f()
+
 
 #2
 def temperature(t):
@@ -47,12 +49,13 @@ nf2 = f(5)
 print(nf1(5))
 print(nf2(50))
 
-
 print("\n4:1-----------DECORATOR")
-def our_decorator(func):
+#func: function as parameter
+
+def our_decorator(func): #foo("Hi")
     def function_wrapper(x):
         print("Before calling " + func.__name__)
-        y = func(x) #NoneType when called with foo()
+        y = func(x) #NoneType when called with foo()#foo(x)
         if type(y) is int:
             print("Integer parameter : ",y)
         elif type(y) is str:
@@ -62,6 +65,8 @@ def our_decorator(func):
         print("After calling " + func.__name__)
 
     return function_wrapper
+
+
 
 @our_decorator # foo = our_decorator(foo)
 def foo(x):
@@ -74,45 +79,77 @@ def succ(y):
 foo("Hi")
 succ(50)
 
+
+#code - re-use (maximize)!
+
 print("\n4:2-----------DECORATOR")
-def my_decorator(some_function):
-    print("Decorator Called.")
+def my_decorator(xyz):
+    print("Decorator Called.",xyz.__name__)
     def wrapper():
-        print("Something is happening before some_function() is called.")
-        some_function()
-        print("Something is happening after some_function() is called.")
+        print("Before ----")
+        xyz()
+        print("--- After")
     return wrapper
+
+@my_decorator
 def just_some_function():
     print("Wheee!")
+    
 
-#1
-just_some_function = my_decorator(just_some_function)
+#1: #just_some_function = my_decorator(just_some_function)
+#2: @my_decorator (just above normal function)!    
+
 just_some_function()
 
+
 print("\n4:3-----------DECORATOR")
-def smart_divide(func):
+def smart_divide(f):#f: divide(a,b) body
+  
     def inner(a,b):
         print("I am going to divide",a,"and",b)
         if b == 0:
             print("Whoops! cannot divide")
             return
-        return func(a,b)
+        return f(a,b) #divide(a,b)
+    
     return inner
 
-@smart_divide
+
+#@smart_divide
 def divide(a,b):
+    print("I am going to divide",a,"and",b)
+    if b == 0:
+        print("Whoops! cannot divide")
+        return
     return a/b
 
 a = divide(2,10)
 print(a)
-a = divide(2,0)
-print(a)
-a = divide(10,5)
-print(a)
 
-"""chaining decorator 
+#a = divide(2,0)
+#print(a)
+#a = divide(10,5)
+#print(a)
+
+"""
+
+chaining decorator 
 @decorator1
 @decorator2
 def somefunction():
 equivalent to:  somefunction = decorator1(decorator2(somefunction))
+
+
+@add
+@multiple
+@square
+@meanmodemedian
+@varaince
+
+def calculate():
+    add()
+    multiple()
+    square()
+
+#Input (Multiple Task (indv function) - Dependent on each other) #Regression
 """

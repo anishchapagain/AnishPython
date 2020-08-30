@@ -12,7 +12,7 @@ def doQuery( conn ) :
     for firstname, lastname in cur.fetchall() :
         print(firstname, lastname)
 
-
+'''
 print("Using MySQLdb…")
 import MySQLdb
 myConnection = MySQLdb.connect( host=hostname, user=username, passwd=password, db=database )
@@ -24,7 +24,7 @@ import pymysql
 myConnection = pymysql.connect( host=hostname, user=username, passwd=password, db=database )
 doQuery( myConnection )
 myConnection.close()
-
+'''
 print("Using mysql.connector…")
 import mysql.connector
 myConnection = mysql.connector.connect( host=hostname, user=username, passwd=password, db=database )
