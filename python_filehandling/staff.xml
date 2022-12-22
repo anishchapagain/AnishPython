@@ -3,6 +3,7 @@
 	<staff id="1001">
 		<nickname>mkyong</nickname>
 		<salary>100,000</salary>
+		<firstName>MK</firstName>
 	</staff>
 	<staff id="1002">
 		<nickname>yflow</nickname>

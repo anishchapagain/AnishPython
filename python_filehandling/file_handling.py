@@ -1,7 +1,7 @@
 #RAW:Read Append Write (modes)
 #Create: Write->Append
 #modes (+) : extra task
-import os
+import os  #dynamic
 
 filename = 'content.json'
 filenameTxt = 'content.txt'
@@ -16,12 +16,19 @@ filenameTxt = 'content.txt'
 #tell(): current position of file
 #seek(): seek at given position of file
 
-fp = open(os.path.dirname(os.path.abspath(__file__))+'/'+filenameTxt,'r+')#recc
+fp = open(os.path.dirname(os.path.abspath(__file__))+'/'+filenameTxt,'r+')#Handler File
 #fp = open('e:\AnacondaPythonScripts\Python_Tutorial\PythonNotes\modules\content1.txt','r')#not recc
+
+#Read-All content from the file and save it as 'txt' variable
+txt=fp.read()
+print(txt)
+print(len(txt))
 
 #reading line by line
 for lineno,text in enumerate(fp.readlines()):
     print("{} -- {}\n".format((lineno+1),text))
+
+fp.close()
 
 
 #reading: read(), readline(), readlines(), read(50): num of char
@@ -47,12 +54,11 @@ print("Tell :", fp.tell())
 fp.close()
 
 
-#Writing files: create and write
+#Writing files: create and write #"\n": new line
 fw = open(os.path.dirname(os.path.abspath(__file__))+'/filetest.txt','w+')
 fw.write("Testing Writing to Files")
 fw.writelines("\nTesting Writing to Files again and \n using multiline \n this time")
 fw.close()
-
 
 #check file is empty then append
 fo = open(os.path.dirname(os.path.abspath(__file__))+'/filetest.txt','a+')
@@ -63,8 +69,10 @@ fo.close()
 
 #inserting content in between!
 fo = open(os.path.dirname(os.path.abspath(__file__))+'/filetest.txt','r+')
-fo.seek(200)
+fo.seek(5)
+print("Tell :", fo.tell())
 fo.write("\n ##Inserting using read+ mode## -- ") #position 61 insert? TASK2#
 fo.seek(0)
 print(fo.read())
 fo.close()
+

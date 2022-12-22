@@ -1,34 +1,70 @@
 """
 Class Example: Multiple Objects
 """
-
-class Kia:  
+class Kia:
+    """
+    """
+    
+class ATX324:
+    
     """Kia: brands for a car representaton"""
-    #Class Varaibles
+    
+    capitalCity="Seoul" #public    (inherit=Open)
+    _country="Korea"    #protected (inherit=Partial)
+    _brandName="Kia"    #protected (inherit=Partial)
+    __year="2021"       #private (inherit=NO)
+    __eng_model = "ATX-324 A" #private (inherit=NO)
 
-    _country="Korea"
-    __state="Busan, Korea"
-    capitalCity="Seoul"
-    _brandName="Kia"
      
     def __init__(self, model, build_year,color):
         self.color = color
         self.build_year = build_year
         self.model = model
         print("__init__ > Object created")
+
     
     def __del__(self):
         print("")
 
+
     def property(self):
-        #x="picanto soul sorento sportage"
-        #print(x)
-        # return self._brandName + " built on " +self.build_year+" , Country: "+self._country+ " , coloured: "+self.color+" features : "+self.model
         return Kia._brandName + " built on " +self.build_year+" , Country: "+Kia._country+ " , coloured: "+self.color+" features : "+self.model
 
 
+class ATX326:
+    
+    def test(self):
+        return Kia._brandName + " built on " +self.build_year+" , Country: "+Kia._country+ " , coloured: "+self.color+" features : "+self.model
+
+    
+
+
+
+#public: accessible to all (parent->child)
+#protected: restricted property (parent->child) 
+
+
+
+
+
+
+
 # print("\nCar Object Created")
-# picanto_AT = Kia("2012","Auto Gear","Silver")
+picanto_AT = Kia("Auto Gear","2012","Silver")
+
+print(picanto_AT.model)
+#print(picanto_AT.property())
+
+
+
+
+
+
+
+
+
+
+
 # picanto_MN = Kia("2011","Auto Gear","Red")
 # soul = Kia("2014","Gear 4WD","Black")
 
@@ -39,9 +75,7 @@ class Kia:
 # #print(Kia.property())
 # # print(Kia.__state)
 
-# print(picanto_AT.property())#AT
-# print(picanto_MN.property())#MN
-# print(soul.property())#Soul
+#print(soul.property())#Soul
 
 # #Altering
 # # Kia._brandName="Honda"

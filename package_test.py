@@ -8,11 +8,11 @@
 import python_package as pp
 # from python_package import test
 # from python_package import test_again
-'''
+
 import python_package.test as t
 import python_package.test_again as ta
-'''
 import python_package.package_python.test_test as tt #alias
+
 '''
 import python_package.test as t #broad concept - max
 from python_package.test import hi #specific - memory low...
