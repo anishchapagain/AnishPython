@@ -3,11 +3,11 @@ Dictionaries {} - Conversion Lists from Dict and Dict from Lists
 zip(): ??
 """
 
-d = {"Nepal":"Kathmandu","China":"Beijing","Japan":"Tokyo","Russia":"Moscow","Change":"Change"}
+d = {"Nepal":"Kathmandu","China":"Beijing","Japan":"Tokyo","Russia":"Moscow","India":"Delhi"}
 #keys(), values(), items()
 
-#d = ["Nepal","Kathmandu"]
-
+#d0 = ["Nepal","China"]
+#d1 = ["Kathmandu","Beijing"]
 
 #Lists from Dictionary. items():tuple
 print("\nDict : ",d)
@@ -17,17 +17,19 @@ print("\nDict : ",d)
 
 #list()
 countries = list(d.items())
-
+#for k,v in d.items():
 print("\nList Countries - tuple : ",countries)
 print("\nList Countries - dict : ",dict(countries))  #1st way
 
 country = list(d.values())
-print("\nList Country : ",country)
+print("\nList Capital : ",country)
 capital = list(d.keys())
-print("\nList Capital : ",capital)
+print("\nList Country : ",capital)
 
 #Turn Lists into Dictionaries: zip()
 print("\n Lists into Dictionaries zip()")
+
+#zip(): combine 
 nations = list(zip(country,capital)) #list nations with tuple(country,capital)
 print("\nNations List: ", nations)
 nation = dict(nations) #2nd way
@@ -41,3 +43,4 @@ print(sorted(nation.values()))#sorts by Values only
 #combining
 #x = dict(list(dict.items())) 
 #x = dict(list(zip(listkey,listvalue)))
+'''

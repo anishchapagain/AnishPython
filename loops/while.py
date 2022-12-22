@@ -1,5 +1,6 @@
 """
-While Loop
+While Loop: unclosed or to be maintained!
+For Loop: closed/finite
 Disadvantage: infinite loop!
 """
 #start, condition-boundary, manage!
@@ -14,35 +15,40 @@ for number in l:
 print("For ended!! ",number)
 
 #----------
-number=0
-while number <= 10:    #performs the Loop until given condition is satisfied
-
-    print("Number : ",number)
-    
-    if number%2==0:
-       print("\tNumber ",number," is Even")
+population=0 #start: minimum
+while population <= 10:    #performs the Loop until given condition is satisfied
+    print("population : ",population)
+   
+    if population%2==0:
+       print("\tpopulation ",population," is Even")
     else:
-       print("\tNumber ",number," is ODD")
+       print("\tpopulation ",population," is ODD")
      
-    number= number+1 #number+=1
+    population= population+1 #maintain logic       #number+=1
 
 
-print("While ended!! ",number)
+print("While ended!! ",population)
 
 #Infinite Loop with while
 print("\n Enter 'quit' to terminate the Loop")
-condition = True
+condition = True  #start
 attempt=1
-while condition: #true
+while condition: #true  #condition: check
     print("Attempt No:",attempt)
     name = input("\tEnter your Name : ")
-    if name=='quit':
+
+    if len(name)<=3:
+        #break #maintain
+        continue
+    
+    if name=='quit' or name=='close':
         print("\n\t Loop is Ending now...");
-        condition = False # can use 'break'
+        #break
+        condition = False #maintain    # can use 'break'
     else:
         print("\tName Entered : ",name)
     attempt+=1
     
 
-else: #While Else
-    print("Completed While")
+#else: #While Else
+print("Completed While")

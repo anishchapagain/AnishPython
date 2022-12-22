@@ -3,16 +3,16 @@ map(), filter(), reduce() and lambda
 """
 from functools import reduce
 
-
 #map(): each and every --all
 #filter(): selected ones
 #reduce(): only one! - sum(), len(), min(), max()
 
 #reduce() : continually applies the function to the sequence and it returns a
 #single value
-# 
+#1 2 3 4 5 6 7 8 9
+
 print(reduce(lambda x, y: x+y, range(1,10))) # 1,2=3,3=6,4=10,5,6,7,8,9      #2+3=5+4=9+5
-print(reduce(lambda a,b: a if (a > b) else b, [47,11,42,102,13])) # 47 42 47 102 102 13 102
+print(reduce(lambda x,z: x if (x > z) else z, [47,11,42,102,13])) # 47 42 47 102 102 13 102
 print(reduce(lambda a,b: a if (a < b) else b, [47,11,42,102,13])) # 47 42 47 102 102 13 102
 
 #lambda: list comprehension logic (single line)

@@ -9,15 +9,18 @@ import re
 # Anchors: ^ begining of Line, $ end of line
 # re.search(pattern,str,re.I|re.MULTILINE|re.M)
 
+
 # #Findall
 cat = "A fat cat doesn't eat oat but a cat eats bats"
+
 catmatch = re.findall("[acboe]at",cat) # [a-zA-Z0-9] - range of possible characters
 print("Findall found total ",len(catmatch)," Matches >> ",catmatch)
 # ['cat', 'eat', 'oat', 'cat', 'eat', 'bat']
 
+
 #split
-catmatch = re.split(r"[acboe]at",cat)
-print("Regular Split : ",catmatch)
+#catmatch = re.split(r"[acboe]at",cat)
+#print("Regular Split : ",catmatch)
 catmatch = re.split(r"\W+",cat)  #\w - word characters, \W - non word Characters  (+ one/more , * zero/more)
 print("Regular Split \W+ : ", catmatch)
 
@@ -64,4 +67,3 @@ print("8. e{2}n\s*(\w+) : ",meta)
 
 meta = re.findall(r'e{2}n\s*(\w+)',sentence) # two 
 print("9. e{2}n\s*(\w+) : ",meta)
-

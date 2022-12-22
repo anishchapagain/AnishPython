@@ -4,7 +4,7 @@
 #decorators wrap a function, modifying its behavior
 
 #http://www.python-course.eu/python3_decorators.php
-
+"""
 print("1------Functions inside Function : ")
 #1
 def f():
@@ -72,7 +72,7 @@ def our_decorator(func): #foo("Hi")
 def foo(x):
     print("Hi, foo has been called with " + str(x)) 
 
-@our_decorator    
+@our_decorator
 def succ(y):
     return y*100
 
@@ -82,9 +82,11 @@ succ(50)
 
 #code - re-use (maximize)!
 
-print("\n4:2-----------DECORATOR")
+"""
+#print("\n4:2-----------DECORATOR")
 def my_decorator(xyz):
     print("Decorator Called.",xyz.__name__)
+    #??
     def wrapper():
         print("Before ----")
         xyz()
@@ -93,15 +95,16 @@ def my_decorator(xyz):
 
 @my_decorator
 def just_some_function():
-    print("Wheee!")
+    print("Hello!")
     
 
 #1: #just_some_function = my_decorator(just_some_function)
 #2: @my_decorator (just above normal function)!    
 
 just_some_function()
+#my_decorator("Hi")
 
-
+"""
 print("\n4:3-----------DECORATOR")
 def smart_divide(f):#f: divide(a,b) body
   
@@ -131,25 +134,27 @@ print(a)
 #a = divide(10,5)
 #print(a)
 
-"""
-
 chaining decorator 
 @decorator1
 @decorator2
 def somefunction():
 equivalent to:  somefunction = decorator1(decorator2(somefunction))
 
+"""
 
 @add
 @multiple
 @square
 @meanmodemedian
 @varaince
-
+@divide
 def calculate():
-    add()
-    multiple()
-    square()
+    num = [20,30,40]
+    
 
+calculate()
 #Input (Multiple Task (indv function) - Dependent on each other) #Regression
-"""
+
+
+#library: 5 function
+#import lib 

@@ -4,11 +4,11 @@
 #Mutable: Index base -> update (List!)  (neg: Immutable! -> String)
 
 varList = [12,34,67,89,0,1,2,3,4]
-
+"""
 def normalFunction():
     result = []
     for var in varList:
-        result.append(var)
+        result.append(var+2)
     return result
 
 print("MainList: ",varList)
@@ -17,7 +17,6 @@ print("Normal Function TEST")
 value = normalFunction()
 print(type(value))
 print(value)
-
 
 #every generator is an Iterator, but not Vice Versa.
 #Uses 'yield' keyword and return an Iterator
@@ -35,7 +34,7 @@ print("\n\nYield Generator Test")
 print(type(generatorFunction()))
 valuey = list(generatorFunction())
 print(valuey)
-
+"""
 
 #there might be more than one yield
 print("\n\nYield TEST")
@@ -54,7 +53,7 @@ print("check :" ,check)
 print("check-a1 :" ,list(check))
 
 
-'''
+"""
 TASK: DEBUG!
 1.
 2.
@@ -62,8 +61,6 @@ TASK: DEBUG!
 print("check-a2 :" ,list(check))
 print("check-a3 :" ,list(check))
 print("check-a4 :" ,list(check))
-'''
-
 
 print("Loop Now >> ")
 for i in yieldtest():
@@ -86,3 +83,4 @@ def fib():
 
 iterVar = fib()
 print(tuple(iterVar))
+"""
