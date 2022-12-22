@@ -4,7 +4,7 @@ Functions: tuple reference *
 
 print("\n Example")
 #args
-def add(x, y, *args): #*args: references tuple, Multiple Arguments
+def add(x, y, *args): # *args: references tuple, Multiple Arguments
     print ("\n X=", x, "& Y=", y) 
     print ("Args parameters : ", args)
     print("len :",len(args))
@@ -27,7 +27,7 @@ add(10,20,1,2,3,4,5,6,7,8,9,10,10,20,1,2,3,4,5,6,7,8,9,10,10,20,1,2,3,4,5,6,7,8,
 
 
 #uncommon: level 1
-#**kwargs: key-worded arguments --> more than one multiple variable
+# **kwargs: key-worded arguments --> more than one multiple variable
 def function_ref_kwargs(**kwargs):
     print(kwargs)
     for key,value in kwargs.items():

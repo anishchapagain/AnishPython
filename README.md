@@ -2,7 +2,7 @@
 
 Python Scripts for Educational (Learning) Purpose - {{ site.time | date_to_long_string }}
 <hr/>
-"Python is a programming language that lets you work quickly and integrate systems more effectively. "
+"Python is a programming language that lets you work quickly and integrate systems more effectively."
 
     Code readability (concept expression with simple language element)
     Fewer lines of Code, comparing with C, C++ or Java.
