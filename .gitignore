@@ -87,3 +87,13 @@ ENV/
 
 # Rope project settings
 .ropeproject
+Bootcamp/R/index.html
+Bootcamp/R/RC_Bootcamp_R_Track_Part1.R
+Bootcamp/R/RC_Bootcamp_R_Track_Part2.R
+*.R
+*.zip
+*.pdf
+*.pptx
+*.whl
+*.pptx
+*.pptx
