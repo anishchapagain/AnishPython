@@ -1,4 +1,4 @@
-.co"""
+"""
 Logical , Comparison, identity and Membership Operators
 
 Logical 'and': any one False is False!
@@ -14,20 +14,23 @@ False True = True
 False False = False
 """
 
-x=10
-y=8
+x=100
+y=80
 
 #Logical and
-if x>0 and y<10:
+if x>0 and y<100:
         print (" x and y") #True
 else:
         print(" x and y : fails") #False
 
 #Logical or
-if x>0 or y<10:
+if x>3 or y<10:
         print(" x or y")
 else:
         print(" x or y : fails")
+
+if x==100:
+        print("Exactly 100")
 
 #assign: =
 #Condition

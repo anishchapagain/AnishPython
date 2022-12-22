@@ -24,5 +24,4 @@ print("Reminder only x%6: ",x%6)
 print("\nType of X and Y")
 print("Type(x) :",type(x))
 print("Type(y) :",type(y))
-
 print("Type(words) : ",type(words))
