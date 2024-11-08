@@ -1,6 +1,13 @@
 import pandas as pd
 from scipy.stats import zscore
 
+"""
+Anamolies:
+High Response Time
+HTTP Status Codes
+Unusual Behaviour - IP
+"""
+
 # Sample log data
 data = {
     'date': ['2024-11-01', '2024-11-01', '2024-11-02', '2024-11-03', '2024-11-04', 
