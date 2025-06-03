@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Strategic Plan: MCP Adoption in FinTech</title>
+    <!-- Visualization & Content Choices:
+        - Strategic Rationale: Report Info -> 5 key benefits of MCP. Goal -> Inform & Persuade. Viz/Method -> Interactive cards with icons. Interaction -> Hover effects. Justification -> Quickly communicates value propositions in a scannable format. Library/Method -> Tailwind CSS.
+        - Integration Plan: Report Info -> 4-phase implementation plan. Goal -> Organize & Explain a Process. Viz/Method -> Interactive tabs for phase details and a Chart.js horizontal bar chart visualizing the timeline. Interaction -> Clickable tabs to reveal content. Justification -> Tabs simplify a large amount of text, while the chart provides a quick visual summary of the project duration, making the timeline tangible. Library/Method -> Chart.js, Tailwind CSS, Vanilla JS.
+        - Authentication Flow: Report Info -> Text-based flow diagram. Goal -> Compare & Explain a Process. Viz/Method -> A two-column, responsive HTML/CSS diagram comparing the 'Current State' and 'Future State'. Interaction -> None (static visual). Justification -> Visually translates a complex technical flow into a clear, side-by-side comparison that is easier to understand than plain text, especially for non-technical stakeholders. Library/Method -> Tailwind CSS.
+        - Key Considerations: Report Info -> 5 key implementation factors. Goal -> Inform & Emphasize. Viz/Method -> Grid of styled cards. Interaction -> Hover effects. Justification -> Highlights critical success factors in a visually distinct and memorable way. Library/Method -> Tailwind CSS.
+    -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* slate-50 */
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 250px;
+            max-height: 300px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 300px;
+                max-height: 350px;
+            }
+        }
+        .fade-in-section {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .fade-in-section.is-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .nav-link {
+            transition: color 0.3s;
+        }
+        .nav-link.active {
+            color: #0d9488; /* teal-600 */
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body class="text-slate-800">
+
+    <header id="header" class="bg-white/80 backdrop-blur-lg sticky top-0 z-50 shadow-sm">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-xl md:text-2xl font-bold text-slate-900">MCP Strategic Plan</h1>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#introduction" class="nav-link text-slate-600 hover:text-teal-600">Introduction</a>
+                <a href="#benefits" class="nav-link text-slate-600 hover:text-teal-600">Benefits</a>
+                <a href="#plan" class="nav-link text-slate-600 hover:text-teal-600">The Plan</a>
+                <a href="#flow" class="nav-link text-slate-600 hover:text-teal-600">How It Works</a>
+                <a href="#considerations" class="nav-link text-slate-600 hover:text-teal-600">Considerations</a>
+            </nav>
+            <a href="#next-steps" class="hidden md:inline-block bg-teal-600 text-white font-semibold px-5 py-2 rounded-lg hover:bg-teal-700 transition-colors">Next Steps</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="introduction" class="py-20 md:py-28 bg-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-5xl font-bold text-slate-900 mb-4">Embracing the Future of AI-Driven Banking</h2>
+                <p class="max-w-3xl mx-auto text-lg text-slate-600">
+                    This interactive document outlines our strategic plan to adopt the Model Context Protocol (MCP). MCP is an open standard that revolutionizes how AI models securely and seamlessly interact with our banking APIs and data. It's a "universal adapter" for AI, enabling more intelligent, contextual, and personalized financial services.
+                </p>
+            </div>
+        </section>
+
+        <section id="benefits" class="py-20 md:py-24 fade-in-section">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h3 class="text-3xl md:text-4xl font-bold text-slate-900">Strategic Rationale: Why Adopt MCP?</h3>
+                    <p class="mt-3 text-lg text-slate-600">Adopting MCP offers significant strategic advantages for our FinTech organization.</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-5 gap-8">
+                    <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
+                        <div class="text-teal-600 mb-4 text-4xl">👤</div>
+                        <h4 class="font-bold text-lg mb-2">Enhanced Customer Experience</h4>
+                        <p class="text-slate-600 text-sm">Enable hyper-personalized advice and offers by giving AI secure access to real-time, authenticated customer data.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
+                        <div class="text-teal-600 mb-4 text-4xl">⚙️</div>
+                        <h4 class="font-bold text-lg mb-2">Increased Efficiency</h4>
+                        <p class="text-slate-600 text-sm">Standardize AI-to-API integration, reducing custom coding and accelerating the automation of complex back-office tasks.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
+                        <div class="text-teal-600 mb-4 text-4xl">🛡️</div>
+                        <h4 class="font-bold text-lg mb-2">Robust Risk Management</h4>
+                        <p class="text-slate-600 text-sm">Allow for more sophisticated and immediate detection of fraud by feeding real-time behavioral data to AI models.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
+                        <div class="text-teal-600 mb-4 text-4xl">📋</div>
+                        <h4 class="font-bold text-lg mb-2">Streamlined Compliance</h4>
+                        <p class="text-slate-600 text-sm">Strengthen data governance with a clear, auditable trail of how AI models interact with sensitive data.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
+                        <div class="text-teal-600 mb-4 text-4xl">🚀</div>
+                        <h4 class="font-bold text-lg mb-2">Accelerated Innovation</h4>
+                        <p class="text-slate-600 text-sm">Position our organization at the cutting edge, allowing rapid integration of advanced AI capabilities.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="plan" class="py-20 md:py-24 bg-white fade-in-section">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h3 class="text-3xl md:text-4xl font-bold text-slate-900">The 4-Phase Integration Plan</h3>
+                    <p class="mt-3 text-lg text-slate-600">A controlled and strategic rollout is key to success. Our plan is structured in four distinct phases.</p>
+                </div>
+                
+                <div class="mb-12">
+                    <h4 class="text-xl font-bold text-center mb-4 text-slate-800">Project Timeline Visualized</h4>
+                    <div class="chart-container">
+                        <canvas id="timelineChart"></canvas>
+                    </div>
+                </div>
+                
+                <div class="max-w-4xl mx-auto">
+                    <div class="flex border-b border-slate-200 mb-8" id="phase-tabs">
+                        <button data-phase="phase1" class="phase-tab flex-1 py-3 px-1 text-center font-semibold text-teal-600 border-b-2 border-teal-600">Phase 1: Research</button>
+                        <button data-phase="phase2" class="phase-tab flex-1 py-3 px-1 text-center font-semibold text-slate-500 hover:text-teal-600">Phase 2: Pilot</button>
+                        <button data-phase="phase3" class="phase-tab flex-1 py-3 px-1 text-center font-semibold text-slate-500 hover:text-teal-600">Phase 3: Integration</button>
+                        <button data-phase="phase4" class="phase-tab flex-1 py-3 px-1 text-center font-semibold text-slate-500 hover:text-teal-600">Phase 4: Optimization</button>
+                    </div>
+
+                    <div id="phase-content">
+                        <div id="phase1" class="phase-panel">
+                            <h4 class="text-2xl font-bold mb-4">Phase 1: Research, Strategy & Alignment <span class="text-base font-normal text-slate-500">(Weeks 1-4)</span></h4>
+                            <p class="text-slate-600 mb-6"><strong>Objective:</strong> Deeply understand MCP, assess its strategic fit, and identify initial high-impact pilot use cases.</p>
+                            <ul class="space-y-4">
+                                <li class="flex items-start"><span class="bg-teal-100 text-teal-700 font-bold rounded-full h-6 w-6 text-center mr-4 flex-shrink-0">1</span><span>Form a cross-functional task force (API Management, AI/ML, Product, Security, Compliance).</span></li>
+                                <li class="flex items-start"><span class="bg-teal-100 text-teal-700 font-bold rounded-full h-6 w-6 text-center mr-4 flex-shrink-0">2</span><span>Conduct an internal capability assessment of our API landscape and data sources.</span></li>
+                                <li class="flex items-start"><span class="bg-teal-100 text-teal-700 font-bold rounded-full h-6 w-6 text-center mr-4 flex-shrink-0">3</span><span>Identify 1-2 low-risk, high-impact pilot use cases (e.g., Contextual Fraud Alerting, Personalized Chatbot).</span></li>
+                                <li class="flex items-start"><span class="bg-teal-100 text-teal-700 font-bold rounded-full h-6 w-6 text-center mr-4 flex-shrink-0">4</span><span>Research open-source MCP implementations and develop a high-level architecture sketch.</span></li>
+                            </ul>
+                        </div>
+                        <div id="phase2" class="phase-panel hidden">
+                            <h4 class="text-2xl font-bold mb-4">Phase 2: Pilot & Proof of Concept <span class="text-base font-normal text-slate-500">(Months 1-3)</span></h4>
+                            <p class="text-slate-600 mb-6"><strong>Objective:</strong> Implement and validate MCP for selected pilot use cases in a controlled, sandbox environment.</p>
+                             <ul class="space-y-4">
+                                <li class="flex items-start"><span class="bg-teal-100 text-teal-700 font-bold rounded-full h-6 w-6 text-center mr-4 flex-shrink-0">1</span><span>Set up an isolated sandbox MCP server and client environment.</span></li>
+                                <li class="flex items-start"><span class="bg-teal-100 text-teal-700 font-bold rounded-full h-6 w-6 text-center mr-4 flex-shrink-0">2</span><span>Expose a subset of banking APIs as MCP-compliant "tools" within the sandbox.</span></li>
+                                <li class="flex items-start"><span class="bg-teal-100 text-teal-700 font-bold rounded-full h-6 w-6 text-center mr-4 flex-shrink-0">3</span><span>Integrate a chosen AI model to act as an MCP client and develop its logic.</span></li>
+                                <li class="flex items-start"><span class="bg-teal-100 text-teal-700 font-bold rounded-full h-6 w-6 text-center mr-4 flex-shrink-0">4</span><span>Build and rigorously test the end-to-end functionality, focusing on data accuracy, response times, and security.</span></li>
+                                <li class="flex items-start"><span class="bg-teal-100 text-teal-700 font-bold rounded-full h-6 w-6 text-center mr-4 flex-shrink-0">5</span><span>Engage security and compliance teams early for architecture and implementation review.</span></li>
+                            </ul>
+                        </div>
+                        <div id="phase3" class="phase-panel hidden">
+                           <h4 class="text-2xl font-bold mb-4">Phase 3: Integration & Expansion <span class="text-base font-normal text-slate-500">(Months 4-9)</span></h4>
+                            <p class="text-slate-600 mb-6"><strong>Objective:</strong> Formalize the MCP architecture, scale the infrastructure, and integrate with more AI applications.</p>
+                             <ul class="space-y-4">
+                                <li class="flex items-start"><span class="bg-teal-100 text-teal-700 font-bold rounded-full h-6 w-6 text-center mr-4 flex-shrink-0">1</span><span>Formalize the MCP architecture and governance policies based on pilot learnings.</span></li>
+                                <li class="flex items-start"><span class="bg-teal-100 text-teal-700 font-bold rounded-full h-6 w-6 text-center mr-4 flex-shrink-0">2</span><span>Build a robust, scalable, and highly available MCP server infrastructure integrated with our API Gateway.</span></li>
+                                <li class="flex items-start"><span class="bg-teal-100 text-teal-700 font-bold rounded-full h-6 w-6 text-center mr-4 flex-shrink-0">3</span><span>Systematically expose more banking services and data sources as MCP-compliant tools.</span></li>
+                                <li class="flex items-start"><span class="bg-teal-100 text-teal-700 font-bold rounded-full h-6 w-6 text-center mr-4 flex-shrink-0">4</span><span>Enable other AI/ML teams to leverage the MCP framework, providing training and support.</span></li>
+                                <li class="flex items-start"><span class="bg-teal-100 text-teal-700 font-bold rounded-full h-6 w-6 text-center mr-4 flex-shrink-0">5</span><span>Implement advanced security measures (tokenization, data masking) and establish continuous monitoring.</span></li>
+                            </ul>
+                        </div>
+                        <div id="phase4" class="phase-panel hidden">
+                           <h4 class="text-2xl font-bold mb-4">Phase 4: Monitoring, Optimization & Innovation <span class="text-base font-normal text-slate-500">(Ongoing)</span></h4>
+                           <p class="text-slate-600 mb-6"><strong>Objective:</strong> Continuously monitor performance, optimize the MCP ecosystem, and drive further innovation.</p>
+                           <ul class="space-y-4">
+                                <li class="flex items-start"><span class="bg-teal-100 text-teal-700 font-bold rounded-full h-6 w-6 text-center mr-4 flex-shrink-0">1</span><span>Continuously monitor the performance of the MCP infrastructure, optimizing for latency and throughput.</span></li>
+                                <li class="flex items-start"><span class="bg-teal-100 text-teal-700 font-bold rounded-full h-6 w-6 text-center mr-4 flex-shrink-0">2</span><span>Gather feedback from stakeholders to identify improvements and new opportunities.</span></li>
+                                <li class="flex items-start"><span class="bg-teal-100 text-teal-700 font-bold rounded-full h-6 w-6 text-center mr-4 flex-shrink-0">3</span><span>Stay up-to-date with MCP standard updates to ensure our implementation remains current.</span></li>
+                                <li class="flex items-start"><span class="bg-teal-100 text-teal-700 font-bold rounded-full h-6 w-6 text-center mr-4 flex-shrink-0">4</span><span>Explore advanced use cases like multi-agent systems and AI-driven risk simulations.</span></li>
+                           </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="flow" class="py-20 md:py-24 fade-in-section">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h3 class="text-3xl md:text-4xl font-bold text-slate-900">How It Works: Authentication & Context</h3>
+                    <p class="mt-3 text-lg text-slate-600 max-w-3xl mx-auto">MCP doesn't replace our authentication; it enhances it. It allows AI to act securely on behalf of an already authenticated user. Here's a comparison of the data flow.</p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-8 lg:gap-12">
+                    <div>
+                        <h4 class="text-2xl font-bold mb-4 text-center">Current State</h4>
+                        <div class="bg-white p-6 rounded-xl shadow-lg border border-slate-200 space-y-4">
+                            <div class="flow-box bg-slate-50 p-3 rounded-lg text-center">1. Client App (User Login)</div>
+                            <div class="text-center text-2xl text-slate-400">↓</div>
+                            <div class="flow-box bg-slate-50 p-3 rounded-lg text-center">2. Authentication Service (Issues Token)</div>
+                            <div class="text-center text-2xl text-slate-400">↓</div>
+                            <div class="flow-box bg-slate-50 p-3 rounded-lg text-center">3. API Gateway (Validates Token, Direct API Call)</div>
+                             <div class="text-center text-2xl text-slate-400">↓</div>
+                            <div class="flow-box bg-slate-50 p-3 rounded-lg text-center">4. Core Banking Service</div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h4 class="text-2xl font-bold mb-4 text-center">Future State with MCP</h4>
+                        <div class="bg-white p-6 rounded-xl shadow-lg border-2 border-teal-500 space-y-4">
+                            <div class="flow-box bg-teal-50 p-3 rounded-lg text-center">1. Client App (User Login & Token)</div>
+                             <div class="text-center text-2xl text-teal-400">↓</div>
+                             <div class="flow-box bg-teal-50 p-3 rounded-lg text-center">2. AI Model (Receives User Context)</div>
+                             <div class="text-center text-2xl text-teal-400">↓</div>
+                             <div class="flow-box bg-teal-50 p-3 rounded-lg text-center">3. MCP Server (Validates AI & User Permissions)</div>
+                             <div class="text-center text-2xl text-teal-400">↓</div>
+                             <div class="flow-box bg-teal-50 p-3 rounded-lg text-center">4. API Gateway (Called by MCP Server)</div>
+                              <div class="text-center text-2xl text-teal-400">↓</div>
+                             <div class="flow-box bg-teal-50 p-3 rounded-lg text-center">5. Core Banking Service (Returns data via MCP)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="considerations" class="py-20 md:py-24 bg-white fade-in-section">
+             <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h3 class="text-3xl md:text-4xl font-bold text-slate-900">Key Considerations for Implementation</h3>
+                    <p class="mt-3 text-lg text-slate-600">Successful implementation requires focus on these critical areas.</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-5 gap-6 max-w-6xl mx-auto">
+                    <div class="text-center p-6 bg-slate-100 rounded-lg">
+                        <h4 class="font-bold text-lg mb-2">Security First</h4>
+                        <p class="text-slate-600 text-sm">Robust encryption, access controls, and auditing are paramount at every layer.</p>
+                    </div>
+                    <div class="text-center p-6 bg-slate-100 rounded-lg">
+                        <h4 class="font-bold text-lg mb-2">Compliance</h4>
+                        <p class="text-slate-600 text-sm">Ensure all integrations adhere to financial regulations (data privacy, auditability, AI explainability).</p>
+                    </div>
+                     <div class="text-center p-6 bg-slate-100 rounded-lg">
+                        <h4 class="font-bold text-lg mb-2">Performance</h4>
+                        <p class="text-slate-600 text-sm">Design for low latency and high throughput to support real-time AI interactions.</p>
+                    </div>
+                    <div class="text-center p-6 bg-slate-100 rounded-lg">
+                        <h4 class="font-bold text-lg mb-2">Scalability</h4>
+                        <p class="text-slate-600 text-sm">The infrastructure must scale horizontally to accommodate growing AI usage.</p>
+                    </div>
+                     <div class="text-center p-6 bg-slate-100 rounded-lg">
+                        <h4 class="font-bold text-lg mb-2">Observability</h4>
+                        <p class="text-slate-600 text-sm">Implement comprehensive logging, monitoring, and tracing for transparency.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="next-steps" class="py-20 md:py-28 fade-in-section">
+             <div class="container mx-auto px-6 text-center">
+                 <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Conclusion & Immediate Next Steps</h2>
+                <p class="max-w-3xl mx-auto text-lg text-slate-600 mb-8">
+                    Adopting MCP is a strategic move that will significantly enhance our capabilities in the AI era. By standardizing interactions and leveraging user context, we can unlock unprecedented levels of personalization and efficiency.
+                </p>
+                <div class="flex flex-col md:flex-row justify-center items-center gap-6">
+                    <div class="bg-white p-6 rounded-lg shadow-md text-left">
+                        <span class="font-bold text-teal-600">1. Convene the Task Force</span>
+                        <p class="text-sm text-slate-500">Initiate the detailed planning for Phase 1.</p>
+                    </div>
+                     <div class="bg-white p-6 rounded-lg shadow-md text-left">
+                        <span class="font-bold text-teal-600">2. Deep Dive into MCP Specs</span>
+                        <p class="text-sm text-slate-500">Gain a thorough understanding of the standard.</p>
+                    </div>
+                     <div class="bg-white p-6 rounded-lg shadow-md text-left">
+                        <span class="font-bold text-teal-600">3. Select Pilot Use Cases</span>
+                        <p class="text-sm text-slate-500">Finalize initial projects and define success metrics.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <footer class="bg-slate-800 text-slate-400 py-6">
+        <div class="container mx-auto px-6 text-center text-sm">
+            <p>&copy; 2025 FinTech Organization. All Rights Reserved. Confidential & Proprietary.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Phase Tabs Interaction
+            const tabs = document.querySelectorAll('.phase-tab');
+            const panels = document.querySelectorAll('.phase-panel');
+
+            tabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    tabs.forEach(item => {
+                        item.classList.remove('text-teal-600', 'border-teal-600');
+                        item.classList.add('text-slate-500', 'hover:text-teal-600');
+                    });
+                    tab.classList.add('text-teal-600', 'border-teal-600');
+                    tab.classList.remove('text-slate-500', 'hover:text-teal-600');
+
+                    const targetPanelId = tab.getAttribute('data-phase');
+                    panels.forEach(panel => {
+                        if (panel.id === targetPanelId) {
+                            panel.classList.remove('hidden');
+                        } else {
+                            panel.classList.add('hidden');
+                        }
+                    });
+                });
+            });
+
+            // Timeline Chart
+            const ctx = document.getElementById('timelineChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Phase 1: Research', 'Phase 2: Pilot', 'Phase 3: Integration', 'Phase 4: Optimization'],
+                    datasets: [{
+                        label: 'Duration in Months',
+                        data: [
+                            [0, 1],    // Phase 1: Month 0 to 1 (1 month)
+                            [1, 4],    // Phase 2: Month 1 to 4 (3 months)
+                            [4, 10],   // Phase 3: Month 4 to 10 (6 months)
+                            [10, 12]   // Phase 4: Ongoing from Month 10
+                        ],
+                        backgroundColor: [
+                            'rgba(20, 184, 166, 0.6)',
+                            'rgba(15, 118, 110, 0.6)',
+                            'rgba(17, 94, 89, 0.6)',
+                            'rgba(13, 148, 136, 0.6)'
+                        ],
+                        borderColor: [
+                            'rgba(20, 184, 166, 1)',
+                            'rgba(15, 118, 110, 1)',
+                            'rgba(17, 94, 89, 1)',
+                            'rgba(13, 148, 136, 1)'
+                        ],
+                        borderWidth: 1,
+                        barPercentage: 0.5,
+                        borderSkipped: false
+                    }]
+                },
+                options: {
+                    indexAxis: 'y',
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    const v = context.raw;
+                                    const duration = v[1] - v[0];
+                                    if (context.dataset.label === 'Phase 4: Optimization'){
+                                        return `Ongoing from Month ${v[0]}`;
+                                    }
+                                    return `Duration: ${duration} month(s) (Month ${v[0]} to ${v[1]})`;
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Project Timeline (in Months)'
+                            }
+                        },
+                        y: {
+                           ticks: {
+                                autoSkip: false
+                           }
+                        }
+                    }
+                }
+            });
+
+            // Fade-in sections on scroll
+            const sections = document.querySelectorAll('.fade-in-section');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('is-visible');
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            sections.forEach(section => {
+                observer.observe(section);
+            });
+            
+            // Nav link active state on scroll
+            const navLinks = document.querySelectorAll('.nav-link');
+            const allSections = document.querySelectorAll('section');
+
+            const navObserver = new IntersectionObserver((entries) => {
+                let currentSectionId = '';
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        currentSectionId = entry.target.id;
+                    }
+                });
+
+                if (currentSectionId) {
+                    navLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === `#${currentSectionId}`) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            }, { rootMargin: '-30% 0px -70% 0px' });
+
+            allSections.forEach(section => {
+                navObserver.observe(section);
+            });
+        });
+    </script>
+
+</body>
+</html>

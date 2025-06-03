@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Authentication and MCP Interaction Flow</title>
+    <!-- Visualization & Content Choices:
+        - Authentication Flow: Report Info -> Detailed steps of current and future authentication with MCP. Goal -> Organize & Explain a Process. Viz/Method -> Structured HTML/CSS diagram with distinct cards for each step and clear arrow indicators. Interaction -> None (static visual). Justification -> A visual flow diagram is the most effective way to communicate a multi-step technical process, clearly showing dependencies and the role of new components (MCP Server). HTML/CSS with Tailwind is used to build this diagram without relying on SVG or Mermaid JS, adhering to constraints.
+    -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #EAF6FF; /* Light Blue Background */
+            color: #0A2463; /* Dark Blue Primary Text */
+        }
+        .flow-card {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            padding: 24px;
+            text-align: center;
+            position: relative;
+            z-index: 10;
+            min-height: 120px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #E0E7FF; /* Lighter blue border */
+        }
+        .flow-card.highlight {
+            border: 2px solid #3E92CC; /* Vibrant blue border for key steps */
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+        }
+        .flow-arrow {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #3E92CC; /* Vibrant blue for arrows */
+            font-weight: 800;
+            line-height: 1;
+            margin: 16px 0;
+            z-index: 5;
+        }
+        .flow-description {
+            font-size: 0.9rem;
+            color: #0A2463]/70;
+            margin-top: 8px;
+        }
+        .flow-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 24px;
+        }
+        .flow-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+        .flow-horizontal {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            gap: 24px;
+            margin-bottom: 24px;
+        }
+        .flow-horizontal .flow-card {
+            flex: 1;
+            min-width: 250px;
+        }
+        .flow-horizontal .flow-arrow {
+            transform: rotate(90deg);
+            margin: 0 16px;
+        }
+        @media (min-width: 768px) {
+            .flow-horizontal {
+                flex-direction: row;
+                align-items: flex-start;
+            }
+            .flow-horizontal .flow-arrow {
+                transform: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="py-16 md:py-24">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h1 class="text-3xl md:text-5xl font-extrabold text-[#0A2463] mb-4">Client Authentication and MCP Interaction Flow</h1>
+                <p class="max-w-3xl mx-auto text-lg md:text-xl text-[#0A2463]/80">
+                    This diagram illustrates the synergistic process where our existing client authentication module provides essential context for AI models interacting via the Model Context Protocol (MCP).
+                </p>
+            </div>
+
+            <div class="flow-container">
+
+                <div class="flow-horizontal">
+                    <div class="flow-card">
+                        <div class="font-bold text-xl text-[#D8315B]">1. Client Application</div>
+                        <div class="flow-description">(Mobile App, Web Portal)</div>
+                        <div class="flow-description">- User Initiates Login</div>
+                        <div class="flow-description">- Submits Credentials</div>
+                        <div class="flow-description">- Receives Secure Token</div>
+                    </div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-card">
+                        <div class="font-bold text-xl text-[#D8315B]">2. Existing Authentication Service</div>
+                        <div class="flow-description">(OAuth Provider, IdP)</div>
+                        <div class="flow-description">- Verifies User Credentials</div>
+                        <div class="flow-description">- Issues Secure Session Token</div>
+                    </div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-card">
+                        <div class="font-bold text-xl text-[#D8315B]">3. Authenticated User Session</div>
+                        <div class="flow-description">- User ID (UID) Confirmed</div>
+                        <div class="flow-description">- Granular Permissions Linked to User ID</div>
+                    </div>
+                </div>
+
+                <div class="flow-arrow">↓</div>
+                <div class="text-center text-sm text-[#0A2463]/70 mb-4">(User interacts with an AI-powered feature within the Client App)</div>
+                <div class="flow-arrow">↓</div>
+
+                <div class="flow-card highlight">
+                    <div class="font-bold text-xl text-[#D8315B]">4. Client Application Invokes AI</div>
+                    <div class="flow-description">- Passes Authenticated User ID (e.g., `user_id`)</div>
+                    <div class="flow-description">- Passes Relevant Session Context</div>
+                </div>
+
+                <div class="flow-arrow">↓</div>
+
+                <div class="flow-card highlight">
+                    <div class="font-bold text-xl text-[#D8315B]">5. Your AI Model (MCP Client)</div>
+                    <div class="flow-description">- Receives Authenticated User Context</div>
+                    <div class="flow-description">- Interprets User's Request</div>
+                    <div class="flow-description">- Determines Need for External Banking Data/Actions</div>
+                </div>
+
+                <div class="flow-arrow">↓</div>
+                <div class="text-center text-sm text-[#0A2463]/70 mb-4">(AI Model uses MCP to securely interact with banking services on user's behalf)</div>
+                <div class="flow-arrow">↓</div>
+
+                <div class="flow-horizontal">
+                    <div class="flow-card highlight">
+                        <div class="font-bold text-xl text-[#D8315B]">6. MCP Client (AI Model)</div>
+                        <div class="flow-description">- Discovers & Invokes Specific MCP Tool/Resource</div>
+                        <div class="flow-description">- Passes User ID and Specific Request Parameters</div>
+                    </div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-card highlight">
+                        <div class="font-bold text-xl text-[#D8315B]">7. MCP Server</div>
+                        <div class="flow-description">(Integrated with Auth/AuthZ)</div>
+                        <div class="flow-description">- Receives AI Request with User Context</div>
+                        <div class="flow-description">- Authenticates & Authorizes the AI Model</div>
+                        <div class="flow-description">- Critically Validates User's Permissions via existing AuthZ systems</div>
+                        <div class="flow-description">- Calls Underlying Banking APIs via API Gateway</div>
+                    </div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-card">
+                        <div class="font-bold text-xl text-[#D8315B]">8. Existing API Gateway</div>
+                        <div class="flow-description">(Enforces API Security)</div>
+                        <div class="flow-description">- Validates Request from MCP Server</div>
+                        <div class="flow-description">- Routes to Core Banking Service</div>
+                    </div>
+                </div>
+
+                <div class="flow-arrow">↓</div>
+                <div class="text-center text-sm text-[#0A2463]/70 mb-4">(Banking Data/Action Result Returned Securely)</div>
+                <div class="flow-arrow">↓</div>
+
+                <div class="flow-card highlight">
+                    <div class="font-bold text-xl text-[#D8315B]">9. AI Model Processes Response</div>
+                    <div class="flow-description">- Incorporates Retrieved Data into its Context</div>
+                    <div class="flow-description">- Formulates Contextually Relevant & Personalized Output to User</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
